@@ -1,0 +1,701 @@
+Tracker:  1
+LR:   0.1
+-------------------------------------------------------------------------------
+Using 113795 tokens for training (10% of 1137951)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 10000 (excluding UNK) (original 11643)
+61144 feature types extracted
+99978 feature values cached for 99978 window types
+10000/113793 examples, avg loss 9.0766
+20000/113793 examples, avg loss 8.96306
+30000/113793 examples, avg loss 8.87567
+40000/113793 examples, avg loss 8.81847
+50000/113793 examples, avg loss 8.76261
+60000/113793 examples, avg loss 8.71504
+70000/113793 examples, avg loss 8.6669
+80000/113793 examples, avg loss 8.6317
+90000/113793 examples, avg loss 8.60044
+100000/113793 examples, avg loss 8.57632
+110000/113793 examples, avg loss 8.54712
+Epoch   1 | avg loss   8.5391 | running train ppl 5110.6538 | val ppl 2965.4755    ***new best val ppl***
+10000/113793 examples, avg loss 8.16648
+20000/113793 examples, avg loss 8.143
+30000/113793 examples, avg loss 8.15223
+40000/113793 examples, avg loss 8.13918
+50000/113793 examples, avg loss 8.13399
+60000/113793 examples, avg loss 8.12481
+70000/113793 examples, avg loss 8.12011
+80000/113793 examples, avg loss 8.11326
+90000/113793 examples, avg loss 8.1047
+100000/113793 examples, avg loss 8.09873
+110000/113793 examples, avg loss 8.09206
+Epoch   2 | avg loss   8.0900 | running train ppl 3261.5296 | val ppl 2346.6401    ***new best val ppl***
+10000/113793 examples, avg loss 7.88497
+20000/113793 examples, avg loss 7.86897
+30000/113793 examples, avg loss 7.87755
+40000/113793 examples, avg loss 7.88111
+50000/113793 examples, avg loss 7.87686
+60000/113793 examples, avg loss 7.87677
+70000/113793 examples, avg loss 7.86283
+80000/113793 examples, avg loss 7.85752
+90000/113793 examples, avg loss 7.85204
+100000/113793 examples, avg loss 7.84242
+110000/113793 examples, avg loss 7.83358
+Epoch   3 | avg loss   7.8317 | running train ppl 2519.3202 | val ppl 1996.4646    ***new best val ppl***
+10000/113793 examples, avg loss 7.67983
+20000/113793 examples, avg loss 7.65826
+30000/113793 examples, avg loss 7.66854
+40000/113793 examples, avg loss 7.66806
+50000/113793 examples, avg loss 7.65418
+60000/113793 examples, avg loss 7.65098
+70000/113793 examples, avg loss 7.65252
+80000/113793 examples, avg loss 7.6366
+90000/113793 examples, avg loss 7.63083
+100000/113793 examples, avg loss 7.62714
+110000/113793 examples, avg loss 7.61893
+Epoch   4 | avg loss   7.6152 | running train ppl 2028.8481 | val ppl 1782.2320    ***new best val ppl***
+10000/113793 examples, avg loss 7.45938
+20000/113793 examples, avg loss 7.46986
+30000/113793 examples, avg loss 7.46679
+40000/113793 examples, avg loss 7.45596
+50000/113793 examples, avg loss 7.45424
+60000/113793 examples, avg loss 7.45705
+70000/113793 examples, avg loss 7.45914
+80000/113793 examples, avg loss 7.45149
+90000/113793 examples, avg loss 7.44682
+100000/113793 examples, avg loss 7.43958
+110000/113793 examples, avg loss 7.4311
+Epoch   5 | avg loss   7.4297 | running train ppl 1685.3711 | val ppl 1627.3430    ***new best val ppl***
+10000/113793 examples, avg loss 7.2818
+20000/113793 examples, avg loss 7.26744
+30000/113793 examples, avg loss 7.2961
+40000/113793 examples, avg loss 7.29614
+50000/113793 examples, avg loss 7.29803
+60000/113793 examples, avg loss 7.2808
+70000/113793 examples, avg loss 7.28136
+80000/113793 examples, avg loss 7.26924
+90000/113793 examples, avg loss 7.26811
+100000/113793 examples, avg loss 7.26426
+110000/113793 examples, avg loss 7.26021
+Epoch   6 | avg loss   7.2623 | running train ppl 1425.5534 | val ppl 1506.5216    ***new best val ppl***
+10000/113793 examples, avg loss 7.11587
+20000/113793 examples, avg loss 7.13688
+30000/113793 examples, avg loss 7.14374
+40000/113793 examples, avg loss 7.14639
+50000/113793 examples, avg loss 7.12828
+60000/113793 examples, avg loss 7.12444
+70000/113793 examples, avg loss 7.12458
+80000/113793 examples, avg loss 7.12484
+90000/113793 examples, avg loss 7.11681
+100000/113793 examples, avg loss 7.11452
+110000/113793 examples, avg loss 7.11338
+Epoch   7 | avg loss   7.1105 | running train ppl 1224.8079 | val ppl 1408.3490    ***new best val ppl***
+10000/113793 examples, avg loss 7.01619
+20000/113793 examples, avg loss 6.97923
+30000/113793 examples, avg loss 6.98255
+40000/113793 examples, avg loss 6.97918
+50000/113793 examples, avg loss 6.97553
+60000/113793 examples, avg loss 6.9673
+70000/113793 examples, avg loss 6.96983
+80000/113793 examples, avg loss 6.97258
+90000/113793 examples, avg loss 6.97904
+100000/113793 examples, avg loss 6.97287
+110000/113793 examples, avg loss 6.97121
+Epoch   8 | avg loss   6.9724 | running train ppl 1066.8156 | val ppl 1326.3066    ***new best val ppl***
+10000/113793 examples, avg loss 6.87197
+20000/113793 examples, avg loss 6.84522
+30000/113793 examples, avg loss 6.86931
+40000/113793 examples, avg loss 6.87147
+50000/113793 examples, avg loss 6.86654
+60000/113793 examples, avg loss 6.86143
+70000/113793 examples, avg loss 6.85782
+80000/113793 examples, avg loss 6.85162
+90000/113793 examples, avg loss 6.85489
+100000/113793 examples, avg loss 6.85495
+110000/113793 examples, avg loss 6.84745
+Epoch   9 | avg loss   6.8426 | running train ppl 936.9077 | val ppl 1256.2641    ***new best val ppl***
+10000/113793 examples, avg loss 6.72324
+20000/113793 examples, avg loss 6.73776
+30000/113793 examples, avg loss 6.72946
+40000/113793 examples, avg loss 6.72294
+50000/113793 examples, avg loss 6.72922
+60000/113793 examples, avg loss 6.72602
+70000/113793 examples, avg loss 6.72873
+80000/113793 examples, avg loss 6.73184
+90000/113793 examples, avg loss 6.7295
+100000/113793 examples, avg loss 6.72521
+110000/113793 examples, avg loss 6.7207
+Epoch  10 | avg loss   6.7215 | running train ppl 830.0568 | val ppl 1195.8542    ***new best val ppl***
+Optimized Perplexity: 1195.854221
+-------------------------------------------------------------------------------
+       607: c-1=of^w=the                             ( 15.7213)
+       268: c-1=in^w=the                             ( 15.5534)
+       161: c-1=.^w=``                               ( 15.5532)
+       158: c-1=,^w=''                               ( 15.2560)
+        52: c-1=.^w=the                              ( 14.9903)
+       148: c-1=.^w=''                               ( 14.7111)
+       624: c-1=to^w=the                             ( 14.6614)
+        84: c-1=on^w=the                             ( 14.5734)
+       187: c-1=,^w=the                              ( 14.4526)
+       160: c-1=said^w=.                             ( 14.4210)
+Tracker:  2
+LR:   0.5
+-------------------------------------------------------------------------------
+Using 113795 tokens for training (10% of 1137951)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 10000 (excluding UNK) (original 11643)
+61144 feature types extracted
+99978 feature values cached for 99978 window types
+10000/113793 examples, avg loss 8.76663
+20000/113793 examples, avg loss 8.57983
+30000/113793 examples, avg loss 8.46508
+40000/113793 examples, avg loss 8.40757
+50000/113793 examples, avg loss 8.34692
+60000/113793 examples, avg loss 8.29377
+70000/113793 examples, avg loss 8.23872
+80000/113793 examples, avg loss 8.19807
+90000/113793 examples, avg loss 8.15797
+100000/113793 examples, avg loss 8.11926
+110000/113793 examples, avg loss 8.08039
+Epoch   1 | avg loss   8.0682 | running train ppl 3191.3907 | val ppl 1635.3309    ***new best val ppl***
+10000/113793 examples, avg loss 7.2892
+20000/113793 examples, avg loss 7.25335
+30000/113793 examples, avg loss 7.24855
+40000/113793 examples, avg loss 7.22451
+50000/113793 examples, avg loss 7.21267
+60000/113793 examples, avg loss 7.19516
+70000/113793 examples, avg loss 7.18455
+80000/113793 examples, avg loss 7.16562
+90000/113793 examples, avg loss 7.15086
+100000/113793 examples, avg loss 7.13807
+110000/113793 examples, avg loss 7.12219
+Epoch   2 | avg loss   7.1159 | running train ppl 1231.3786 | val ppl 1203.3700    ***new best val ppl***
+10000/113793 examples, avg loss 6.60677
+20000/113793 examples, avg loss 6.58764
+30000/113793 examples, avg loss 6.59209
+40000/113793 examples, avg loss 6.59493
+50000/113793 examples, avg loss 6.58573
+60000/113793 examples, avg loss 6.58562
+70000/113793 examples, avg loss 6.56609
+80000/113793 examples, avg loss 6.55766
+90000/113793 examples, avg loss 6.54962
+100000/113793 examples, avg loss 6.53918
+110000/113793 examples, avg loss 6.5268
+Epoch   3 | avg loss   6.5231 | running train ppl 680.6882 | val ppl 991.2228    ***new best val ppl***
+10000/113793 examples, avg loss 6.1443
+20000/113793 examples, avg loss 6.13029
+30000/113793 examples, avg loss 6.1464
+40000/113793 examples, avg loss 6.14864
+50000/113793 examples, avg loss 6.12513
+60000/113793 examples, avg loss 6.11613
+70000/113793 examples, avg loss 6.11503
+80000/113793 examples, avg loss 6.0913
+90000/113793 examples, avg loss 6.08264
+100000/113793 examples, avg loss 6.07765
+110000/113793 examples, avg loss 6.06706
+Epoch   4 | avg loss   6.0625 | running train ppl 429.4675 | val ppl 861.3901    ***new best val ppl***
+10000/113793 examples, avg loss 5.71506
+20000/113793 examples, avg loss 5.73402
+30000/113793 examples, avg loss 5.71725
+40000/113793 examples, avg loss 5.71117
+50000/113793 examples, avg loss 5.71108
+60000/113793 examples, avg loss 5.71438
+70000/113793 examples, avg loss 5.71721
+80000/113793 examples, avg loss 5.70814
+90000/113793 examples, avg loss 5.70683
+100000/113793 examples, avg loss 5.69801
+110000/113793 examples, avg loss 5.6879
+Epoch   5 | avg loss   5.6863 | running train ppl 294.8095 | val ppl 774.9669    ***new best val ppl***
+10000/113793 examples, avg loss 5.39223
+20000/113793 examples, avg loss 5.35402
+30000/113793 examples, avg loss 5.40359
+40000/113793 examples, avg loss 5.41827
+50000/113793 examples, avg loss 5.41598
+60000/113793 examples, avg loss 5.39333
+70000/113793 examples, avg loss 5.38956
+80000/113793 examples, avg loss 5.3755
+90000/113793 examples, avg loss 5.37585
+100000/113793 examples, avg loss 5.36855
+110000/113793 examples, avg loss 5.36397
+Epoch   6 | avg loss   5.3684 | running train ppl 214.5157 | val ppl 713.9083    ***new best val ppl***
+10000/113793 examples, avg loss 5.01735
+20000/113793 examples, avg loss 5.07546
+30000/113793 examples, avg loss 5.10518
+40000/113793 examples, avg loss 5.11796
+50000/113793 examples, avg loss 5.10707
+60000/113793 examples, avg loss 5.10457
+70000/113793 examples, avg loss 5.10873
+80000/113793 examples, avg loss 5.11293
+90000/113793 examples, avg loss 5.10308
+100000/113793 examples, avg loss 5.0977
+110000/113793 examples, avg loss 5.09846
+Epoch   7 | avg loss   5.0964 | running train ppl 163.4340 | val ppl 669.1575    ***new best val ppl***
+10000/113793 examples, avg loss 4.86925
+20000/113793 examples, avg loss 4.8394
+30000/113793 examples, avg loss 4.84906
+40000/113793 examples, avg loss 4.85636
+50000/113793 examples, avg loss 4.85225
+60000/113793 examples, avg loss 4.83996
+70000/113793 examples, avg loss 4.84761
+80000/113793 examples, avg loss 4.85917
+90000/113793 examples, avg loss 4.86911
+100000/113793 examples, avg loss 4.86454
+110000/113793 examples, avg loss 4.85927
+Epoch   8 | avg loss   4.8613 | running train ppl 129.1935 | val ppl 635.0895    ***new best val ppl***
+10000/113793 examples, avg loss 4.65187
+20000/113793 examples, avg loss 4.63986
+30000/113793 examples, avg loss 4.65435
+40000/113793 examples, avg loss 4.6552
+50000/113793 examples, avg loss 4.65176
+60000/113793 examples, avg loss 4.64906
+70000/113793 examples, avg loss 4.64698
+80000/113793 examples, avg loss 4.64704
+90000/113793 examples, avg loss 4.65528
+100000/113793 examples, avg loss 4.66009
+110000/113793 examples, avg loss 4.65755
+Epoch   9 | avg loss   4.6549 | running train ppl 105.0960 | val ppl 609.1025    ***new best val ppl***
+10000/113793 examples, avg loss 4.45615
+20000/113793 examples, avg loss 4.4764
+30000/113793 examples, avg loss 4.46065
+40000/113793 examples, avg loss 4.44568
+50000/113793 examples, avg loss 4.45746
+60000/113793 examples, avg loss 4.46362
+70000/113793 examples, avg loss 4.46947
+80000/113793 examples, avg loss 4.47841
+90000/113793 examples, avg loss 4.48263
+100000/113793 examples, avg loss 4.47361
+110000/113793 examples, avg loss 4.47489
+Epoch  10 | avg loss   4.4768 | running train ppl  87.9533 | val ppl 589.0955    ***new best val ppl***
+Optimized Perplexity: 589.095490
+-------------------------------------------------------------------------------
+       607: c-1=of^w=the                             ( 17.3382)
+       268: c-1=in^w=the                             ( 17.1731)
+       161: c-1=.^w=``                               ( 17.1497)
+       158: c-1=,^w=''                               ( 16.8674)
+        52: c-1=.^w=the                              ( 16.6240)
+       148: c-1=.^w=''                               ( 16.3628)
+       624: c-1=to^w=the                             ( 16.2912)
+        84: c-1=on^w=the                             ( 16.2067)
+       187: c-1=,^w=the                              ( 16.0803)
+        48: c-1=for^w=the                            ( 16.0292)
+Tracker:  3
+LR:   1
+-------------------------------------------------------------------------------
+Using 113795 tokens for training (10% of 1137951)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 10000 (excluding UNK) (original 11643)
+61144 feature types extracted
+99978 feature values cached for 99978 window types
+10000/113793 examples, avg loss 8.59624
+20000/113793 examples, avg loss 8.41462
+30000/113793 examples, avg loss 8.29013
+40000/113793 examples, avg loss 8.22176
+50000/113793 examples, avg loss 8.14527
+60000/113793 examples, avg loss 8.07943
+70000/113793 examples, avg loss 8.0128
+80000/113793 examples, avg loss 7.96125
+90000/113793 examples, avg loss 7.91069
+100000/113793 examples, avg loss 7.85878
+110000/113793 examples, avg loss 7.81114
+Epoch   1 | avg loss   7.7962 | running train ppl 2431.3151 | val ppl 1217.9445    ***new best val ppl***
+10000/113793 examples, avg loss 6.6373
+20000/113793 examples, avg loss 6.60649
+30000/113793 examples, avg loss 6.59254
+40000/113793 examples, avg loss 6.56804
+50000/113793 examples, avg loss 6.55055
+60000/113793 examples, avg loss 6.53246
+70000/113793 examples, avg loss 6.52243
+80000/113793 examples, avg loss 6.50081
+90000/113793 examples, avg loss 6.48569
+100000/113793 examples, avg loss 6.4727
+110000/113793 examples, avg loss 6.45347
+Epoch   2 | avg loss   6.4458 | running train ppl 630.0743 | val ppl 868.9683    ***new best val ppl***
+10000/113793 examples, avg loss 5.73351
+20000/113793 examples, avg loss 5.71536
+30000/113793 examples, avg loss 5.71706
+40000/113793 examples, avg loss 5.72249
+50000/113793 examples, avg loss 5.71108
+60000/113793 examples, avg loss 5.71241
+70000/113793 examples, avg loss 5.69199
+80000/113793 examples, avg loss 5.68351
+90000/113793 examples, avg loss 5.67752
+100000/113793 examples, avg loss 5.66954
+110000/113793 examples, avg loss 5.65906
+Epoch   3 | avg loss   5.6557 | running train ppl 285.9109 | val ppl 718.5541    ***new best val ppl***
+10000/113793 examples, avg loss 5.15778
+20000/113793 examples, avg loss 5.14894
+30000/113793 examples, avg loss 5.16601
+40000/113793 examples, avg loss 5.16756
+50000/113793 examples, avg loss 5.14499
+60000/113793 examples, avg loss 5.13679
+70000/113793 examples, avg loss 5.13392
+80000/113793 examples, avg loss 5.10882
+90000/113793 examples, avg loss 5.10271
+100000/113793 examples, avg loss 5.09943
+110000/113793 examples, avg loss 5.09095
+Epoch   4 | avg loss   5.0874 | running train ppl 161.9738 | val ppl 638.2282    ***new best val ppl***
+10000/113793 examples, avg loss 4.66093
+20000/113793 examples, avg loss 4.66829
+30000/113793 examples, avg loss 4.65319
+40000/113793 examples, avg loss 4.65265
+50000/113793 examples, avg loss 4.6587
+60000/113793 examples, avg loss 4.66792
+70000/113793 examples, avg loss 4.67373
+80000/113793 examples, avg loss 4.66743
+90000/113793 examples, avg loss 4.67143
+100000/113793 examples, avg loss 4.66637
+110000/113793 examples, avg loss 4.65892
+Epoch   5 | avg loss   4.6580 | running train ppl 105.4227 | val ppl 591.7879    ***new best val ppl***
+10000/113793 examples, avg loss 4.3243
+20000/113793 examples, avg loss 4.28516
+30000/113793 examples, avg loss 4.34016
+40000/113793 examples, avg loss 4.35556
+50000/113793 examples, avg loss 4.35573
+60000/113793 examples, avg loss 4.33935
+70000/113793 examples, avg loss 4.33697
+80000/113793 examples, avg loss 4.32611
+90000/113793 examples, avg loss 4.33078
+100000/113793 examples, avg loss 4.32713
+110000/113793 examples, avg loss 4.32535
+Epoch   6 | avg loss   4.3322 | running train ppl  76.1130 | val ppl 561.3725    ***new best val ppl***
+10000/113793 examples, avg loss 3.9534
+20000/113793 examples, avg loss 4.02225
+30000/113793 examples, avg loss 4.05889
+40000/113793 examples, avg loss 4.07265
+50000/113793 examples, avg loss 4.06371
+60000/113793 examples, avg loss 4.06349
+70000/113793 examples, avg loss 4.07174
+80000/113793 examples, avg loss 4.07862
+90000/113793 examples, avg loss 4.07041
+100000/113793 examples, avg loss 4.06626
+110000/113793 examples, avg loss 4.0687
+Epoch   7 | avg loss   4.0679 | running train ppl  58.4356 | val ppl 538.0536    ***new best val ppl***
+10000/113793 examples, avg loss 3.82627
+20000/113793 examples, avg loss 3.7906
+30000/113793 examples, avg loss 3.81152
+40000/113793 examples, avg loss 3.82508
+50000/113793 examples, avg loss 3.81732
+60000/113793 examples, avg loss 3.80896
+70000/113793 examples, avg loss 3.82005
+80000/113793 examples, avg loss 3.83601
+90000/113793 examples, avg loss 3.84688
+100000/113793 examples, avg loss 3.84312
+110000/113793 examples, avg loss 3.83941
+Epoch   8 | avg loss   3.8420 | running train ppl  46.6202 | val ppl 521.9782    ***new best val ppl***
+10000/113793 examples, avg loss 3.64022
+20000/113793 examples, avg loss 3.62685
+30000/113793 examples, avg loss 3.63992
+40000/113793 examples, avg loss 3.63732
+50000/113793 examples, avg loss 3.63647
+60000/113793 examples, avg loss 3.63849
+70000/113793 examples, avg loss 3.63619
+80000/113793 examples, avg loss 3.64049
+90000/113793 examples, avg loss 3.64993
+100000/113793 examples, avg loss 3.65742
+110000/113793 examples, avg loss 3.65851
+Epoch   9 | avg loss   3.6567 | running train ppl  38.7350 | val ppl 514.6231    ***new best val ppl***
+10000/113793 examples, avg loss 3.49571
+20000/113793 examples, avg loss 3.51659
+30000/113793 examples, avg loss 3.50303
+40000/113793 examples, avg loss 3.48885
+50000/113793 examples, avg loss 3.4964
+60000/113793 examples, avg loss 3.50848
+70000/113793 examples, avg loss 3.51589
+80000/113793 examples, avg loss 3.52697
+90000/113793 examples, avg loss 3.53247
+100000/113793 examples, avg loss 3.52281
+110000/113793 examples, avg loss 3.52467
+Epoch  10 | avg loss   3.5263 | running train ppl  33.9991 | val ppl 515.2215    quartered learning rate to 0.25
+Optimized Perplexity: 515.221534
+-------------------------------------------------------------------------------
+       607: c-1=of^w=the                             ( 18.0301)
+       268: c-1=in^w=the                             ( 17.8658)
+       161: c-1=.^w=``                               ( 17.8372)
+       158: c-1=,^w=''                               ( 17.5582)
+        52: c-1=.^w=the                              ( 17.3174)
+       148: c-1=.^w=''                               ( 17.0623)
+       624: c-1=to^w=the                             ( 16.9842)
+        84: c-1=on^w=the                             ( 16.8999)
+       187: c-1=,^w=the                              ( 16.7709)
+        48: c-1=for^w=the                            ( 16.7267)
+Tracker:  4
+LR:   2
+-------------------------------------------------------------------------------
+Using 113795 tokens for training (10% of 1137951)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 10000 (excluding UNK) (original 11643)
+61144 feature types extracted
+99978 feature values cached for 99978 window types
+10000/113793 examples, avg loss 8.46954
+20000/113793 examples, avg loss 8.25213
+30000/113793 examples, avg loss 8.10248
+40000/113793 examples, avg loss 8.01552
+50000/113793 examples, avg loss 7.92149
+60000/113793 examples, avg loss 7.84013
+70000/113793 examples, avg loss 7.75974
+80000/113793 examples, avg loss 7.69438
+90000/113793 examples, avg loss 7.63145
+100000/113793 examples, avg loss 7.567
+110000/113793 examples, avg loss 7.50952
+Epoch   1 | avg loss   7.4912 | running train ppl 1792.1752 | val ppl 881.2260    ***new best val ppl***
+10000/113793 examples, avg loss 5.78465
+20000/113793 examples, avg loss 5.76206
+30000/113793 examples, avg loss 5.74585
+40000/113793 examples, avg loss 5.72262
+50000/113793 examples, avg loss 5.70384
+60000/113793 examples, avg loss 5.69049
+70000/113793 examples, avg loss 5.684
+80000/113793 examples, avg loss 5.66381
+90000/113793 examples, avg loss 5.65194
+100000/113793 examples, avg loss 5.64155
+110000/113793 examples, avg loss 5.62321
+Epoch   2 | avg loss   5.6159 | running train ppl 274.7726 | val ppl 644.7702    ***new best val ppl***
+10000/113793 examples, avg loss 4.69855
+20000/113793 examples, avg loss 4.68962
+30000/113793 examples, avg loss 4.69441
+40000/113793 examples, avg loss 4.70515
+50000/113793 examples, avg loss 4.69613
+60000/113793 examples, avg loss 4.70317
+70000/113793 examples, avg loss 4.68437
+80000/113793 examples, avg loss 4.68176
+90000/113793 examples, avg loss 4.68072
+100000/113793 examples, avg loss 4.67798
+110000/113793 examples, avg loss 4.67392
+Epoch   3 | avg loss   4.6733 | running train ppl 107.0528 | val ppl 567.4283    ***new best val ppl***
+10000/113793 examples, avg loss 4.11039
+20000/113793 examples, avg loss 4.11665
+30000/113793 examples, avg loss 4.13967
+40000/113793 examples, avg loss 4.14889
+50000/113793 examples, avg loss 4.13291
+60000/113793 examples, avg loss 4.12678
+70000/113793 examples, avg loss 4.12462
+80000/113793 examples, avg loss 4.10068
+90000/113793 examples, avg loss 4.10021
+100000/113793 examples, avg loss 4.10119
+110000/113793 examples, avg loss 4.09878
+Epoch   4 | avg loss   4.0971 | running train ppl  60.1666 | val ppl 525.9436    ***new best val ppl***
+10000/113793 examples, avg loss 3.6474
+20000/113793 examples, avg loss 3.64971
+30000/113793 examples, avg loss 3.63609
+40000/113793 examples, avg loss 3.6418
+50000/113793 examples, avg loss 3.65315
+60000/113793 examples, avg loss 3.67139
+70000/113793 examples, avg loss 3.68173
+80000/113793 examples, avg loss 3.67716
+90000/113793 examples, avg loss 3.68543
+100000/113793 examples, avg loss 3.6852
+110000/113793 examples, avg loss 3.68233
+Epoch   5 | avg loss   3.6805 | running train ppl  39.6681 | val ppl 518.3600    ***new best val ppl***
+10000/113793 examples, avg loss 3.46091
+20000/113793 examples, avg loss 3.40918
+30000/113793 examples, avg loss 3.45922
+40000/113793 examples, avg loss 3.47085
+50000/113793 examples, avg loss 3.47487
+60000/113793 examples, avg loss 3.46252
+70000/113793 examples, avg loss 3.45873
+80000/113793 examples, avg loss 3.44811
+90000/113793 examples, avg loss 3.45553
+100000/113793 examples, avg loss 3.4552
+110000/113793 examples, avg loss 3.45623
+Epoch   6 | avg loss   3.4639 | running train ppl  31.9398 | val ppl 533.1424    quartered learning rate to 0.5
+10000/113793 examples, avg loss 3.28588
+20000/113793 examples, avg loss 3.35325
+30000/113793 examples, avg loss 3.39032
+40000/113793 examples, avg loss 3.40282
+50000/113793 examples, avg loss 3.39147
+60000/113793 examples, avg loss 3.39135
+70000/113793 examples, avg loss 3.40102
+80000/113793 examples, avg loss 3.40839
+90000/113793 examples, avg loss 3.40012
+100000/113793 examples, avg loss 3.395
+110000/113793 examples, avg loss 3.39643
+Epoch   7 | avg loss   3.3961 | running train ppl  29.8476 | val ppl 537.8326    quartered learning rate to 0.125
+10000/113793 examples, avg loss 3.37547
+20000/113793 examples, avg loss 3.33148
+30000/113793 examples, avg loss 3.35981
+40000/113793 examples, avg loss 3.37504
+50000/113793 examples, avg loss 3.36403
+60000/113793 examples, avg loss 3.35646
+70000/113793 examples, avg loss 3.37009
+80000/113793 examples, avg loss 3.38698
+90000/113793 examples, avg loss 3.39666
+100000/113793 examples, avg loss 3.39151
+110000/113793 examples, avg loss 3.38827
+Epoch   8 | avg loss   3.3907 | running train ppl  29.6874 | val ppl 539.0112    quartered learning rate to 0.03125
+10000/113793 examples, avg loss 3.38512
+20000/113793 examples, avg loss 3.36943
+30000/113793 examples, avg loss 3.38079
+40000/113793 examples, avg loss 3.37609
+50000/113793 examples, avg loss 3.37402
+60000/113793 examples, avg loss 3.37575
+70000/113793 examples, avg loss 3.37195
+80000/113793 examples, avg loss 3.37607
+90000/113793 examples, avg loss 3.38376
+100000/113793 examples, avg loss 3.39044
+110000/113793 examples, avg loss 3.39167
+Epoch   9 | avg loss   3.3896 | running train ppl  29.6542 | val ppl 539.3059    quartered learning rate to 0.0078125
+10000/113793 examples, avg loss 3.36664
+20000/113793 examples, avg loss 3.38732
+30000/113793 examples, avg loss 3.37503
+40000/113793 examples, avg loss 3.36074
+50000/113793 examples, avg loss 3.36588
+60000/113793 examples, avg loss 3.37758
+70000/113793 examples, avg loss 3.3837
+80000/113793 examples, avg loss 3.39408
+90000/113793 examples, avg loss 3.39903
+100000/113793 examples, avg loss 3.38772
+110000/113793 examples, avg loss 3.38805
+Epoch  10 | avg loss   3.3893 | running train ppl  29.6465 | val ppl 539.3796    quartered learning rate to 0.00195312
+Optimized Perplexity: 539.379575
+-------------------------------------------------------------------------------
+       607: c-1=of^w=the                             ( 18.2657)
+       268: c-1=in^w=the                             ( 18.1019)
+       161: c-1=.^w=``                               ( 18.0700)
+       158: c-1=,^w=''                               ( 17.7928)
+        52: c-1=.^w=the                              ( 17.5536)
+       148: c-1=.^w=''                               ( 17.3004)
+       624: c-1=to^w=the                             ( 17.2201)
+        84: c-1=on^w=the                             ( 17.1359)
+       187: c-1=,^w=the                              ( 17.0053)
+        48: c-1=for^w=the                            ( 16.9646)
+Tracker:  5
+LR:   4
+-------------------------------------------------------------------------------
+Using 113795 tokens for training (10% of 1137951)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 10000 (excluding UNK) (original 11643)
+61144 feature types extracted
+99978 feature values cached for 99978 window types
+10000/113793 examples, avg loss 8.3967
+20000/113793 examples, avg loss 8.12334
+30000/113793 examples, avg loss 7.9434
+40000/113793 examples, avg loss 7.83447
+50000/113793 examples, avg loss 7.72277
+60000/113793 examples, avg loss 7.62433
+70000/113793 examples, avg loss 7.52918
+80000/113793 examples, avg loss 7.45132
+90000/113793 examples, avg loss 7.3777
+100000/113793 examples, avg loss 7.30123
+110000/113793 examples, avg loss 7.23516
+Epoch   1 | avg loss   7.2139 | running train ppl 1358.2281 | val ppl 666.1097    ***new best val ppl***
+10000/113793 examples, avg loss 4.82523
+20000/113793 examples, avg loss 4.81732
+30000/113793 examples, avg loss 4.80858
+40000/113793 examples, avg loss 4.78812
+50000/113793 examples, avg loss 4.77558
+60000/113793 examples, avg loss 4.77547
+70000/113793 examples, avg loss 4.77972
+80000/113793 examples, avg loss 4.76907
+90000/113793 examples, avg loss 4.76505
+100000/113793 examples, avg loss 4.7646
+110000/113793 examples, avg loss 4.75378
+Epoch   2 | avg loss   4.7498 | running train ppl 115.5643 | val ppl 538.3200    ***new best val ppl***
+10000/113793 examples, avg loss 3.74147
+20000/113793 examples, avg loss 3.74395
+30000/113793 examples, avg loss 3.74665
+40000/113793 examples, avg loss 3.75934
+50000/113793 examples, avg loss 3.75526
+60000/113793 examples, avg loss 3.76652
+70000/113793 examples, avg loss 3.75018
+80000/113793 examples, avg loss 3.75333
+90000/113793 examples, avg loss 3.75877
+100000/113793 examples, avg loss 3.76051
+110000/113793 examples, avg loss 3.76337
+Epoch   3 | avg loss   3.7643 | running train ppl  43.1324 | val ppl 543.7379    quartered learning rate to 1
+10000/113793 examples, avg loss 3.44799
+20000/113793 examples, avg loss 3.46049
+30000/113793 examples, avg loss 3.48908
+40000/113793 examples, avg loss 3.49806
+50000/113793 examples, avg loss 3.48578
+60000/113793 examples, avg loss 3.47459
+70000/113793 examples, avg loss 3.47014
+80000/113793 examples, avg loss 3.44281
+90000/113793 examples, avg loss 3.44467
+100000/113793 examples, avg loss 3.44532
+110000/113793 examples, avg loss 3.44309
+Epoch   4 | avg loss   3.4409 | running train ppl  31.2156 | val ppl 554.1957    quartered learning rate to 0.25
+10000/113793 examples, avg loss 3.41698
+20000/113793 examples, avg loss 3.41813
+30000/113793 examples, avg loss 3.40422
+40000/113793 examples, avg loss 3.40805
+50000/113793 examples, avg loss 3.42058
+60000/113793 examples, avg loss 3.43924
+70000/113793 examples, avg loss 3.44824
+80000/113793 examples, avg loss 3.43992
+90000/113793 examples, avg loss 3.44646
+100000/113793 examples, avg loss 3.44636
+110000/113793 examples, avg loss 3.44286
+Epoch   5 | avg loss   3.4402 | running train ppl  31.1921 | val ppl 556.7349    quartered learning rate to 0.0625
+10000/113793 examples, avg loss 3.4737
+20000/113793 examples, avg loss 3.41239
+30000/113793 examples, avg loss 3.4562
+40000/113793 examples, avg loss 3.46197
+50000/113793 examples, avg loss 3.46302
+60000/113793 examples, avg loss 3.4495
+70000/113793 examples, avg loss 3.44208
+80000/113793 examples, avg loss 3.42791
+90000/113793 examples, avg loss 3.43386
+100000/113793 examples, avg loss 3.43191
+110000/113793 examples, avg loss 3.43256
+Epoch   6 | avg loss   3.4402 | running train ppl  31.1941 | val ppl 557.3647    quartered learning rate to 0.015625
+10000/113793 examples, avg loss 3.33567
+20000/113793 examples, avg loss 3.40281
+30000/113793 examples, avg loss 3.43904
+40000/113793 examples, avg loss 3.44935
+50000/113793 examples, avg loss 3.43861
+60000/113793 examples, avg loss 3.43757
+70000/113793 examples, avg loss 3.44658
+80000/113793 examples, avg loss 3.45339
+90000/113793 examples, avg loss 3.44468
+100000/113793 examples, avg loss 3.43906
+110000/113793 examples, avg loss 3.44051
+Epoch   7 | avg loss   3.4403 | running train ppl  31.1950 | val ppl 557.5218    quartered learning rate to 0.00390625
+10000/113793 examples, avg loss 3.42089
+20000/113793 examples, avg loss 3.37437
+30000/113793 examples, avg loss 3.40601
+40000/113793 examples, avg loss 3.42294
+50000/113793 examples, avg loss 3.41097
+60000/113793 examples, avg loss 3.40427
+70000/113793 examples, avg loss 3.41828
+80000/113793 examples, avg loss 3.43548
+90000/113793 examples, avg loss 3.44501
+100000/113793 examples, avg loss 3.43996
+110000/113793 examples, avg loss 3.43744
+Epoch   8 | avg loss   3.4403 | running train ppl  31.1953 | val ppl 557.5611    quartered learning rate to 0.000976562
+10000/113793 examples, avg loss 3.44187
+20000/113793 examples, avg loss 3.42311
+30000/113793 examples, avg loss 3.43623
+40000/113793 examples, avg loss 3.43182
+50000/113793 examples, avg loss 3.42693
+60000/113793 examples, avg loss 3.42817
+70000/113793 examples, avg loss 3.42284
+80000/113793 examples, avg loss 3.42771
+90000/113793 examples, avg loss 3.43469
+100000/113793 examples, avg loss 3.44114
+110000/113793 examples, avg loss 3.44226
+Epoch   9 | avg loss   3.4403 | running train ppl  31.1953 | val ppl 557.5709    quartered learning rate to 0.000244141
+Optimized Perplexity: 557.570889
+-------------------------------------------------------------------------------
+       607: c-1=of^w=the                             ( 18.3160)
+       268: c-1=in^w=the                             ( 18.1531)
+       161: c-1=.^w=``                               ( 18.1167)
+       158: c-1=,^w=''                               ( 17.8425)
+        52: c-1=.^w=the                              ( 17.6054)
+       148: c-1=.^w=''                               ( 17.3536)
+       624: c-1=to^w=the                             ( 17.2707)
+        84: c-1=on^w=the                             ( 17.1870)
+       187: c-1=,^w=the                              ( 17.0527)
+        48: c-1=for^w=the                            ( 17.0178)
+Tracker:  6
+LR:   8
+-------------------------------------------------------------------------------
+Using 113795 tokens for training (10% of 1137951)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 10000 (excluding UNK) (original 11643)
+61144 feature types extracted
+99978 feature values cached for 99978 window types
+10000/113793 examples, avg loss 8.56928
+20000/113793 examples, avg loss 8.27241
+30000/113793 examples, avg loss 8.06556
+40000/113793 examples, avg loss 7.95054
+50000/113793 examples, avg loss 7.82726

@@ -1,0 +1,765 @@
+Tracker:  1
+Dim:   30 LR:   1e-05
+-------------------------------------------------------------------------------
+Using 11449 tokens for training (10% of 114491)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 1000 (excluding UNK) (original 2707)
+FFLM(
+  (E): Embedding(1001, 30)
+  (FF): FF(
+    (stack): ModuleList(
+      (0): Sequential(
+        (0): Linear(in_features=90, out_features=30, bias=True)
+        (1): ReLU()
+      )
+    )
+    (out): Linear(in_features=30, out_features=1001, bias=True)
+  )
+  (mean_ce): CrossEntropyLoss()
+  (sum_ce): CrossEntropyLoss()
+)
+Epoch   1 | running train ppl 1015.5573 | val ppl 934.7219    ***new best val ppl***
+Epoch   2 | running train ppl 859.0981 | val ppl 777.5823    ***new best val ppl***
+Epoch   3 | running train ppl 697.2069 | val ppl 615.4048    ***new best val ppl***
+Epoch   4 | running train ppl 542.9888 | val ppl 476.6636    ***new best val ppl***
+Epoch   5 | running train ppl 423.3307 | val ppl 376.1381    ***new best val ppl***
+Epoch   6 | running train ppl 341.3187 | val ppl 310.8661    ***new best val ppl***
+Epoch   7 | running train ppl 290.7135 | val ppl 272.6666    ***new best val ppl***
+Epoch   8 | running train ppl 261.6542 | val ppl 251.7619    ***new best val ppl***
+Epoch   9 | running train ppl 245.7445 | val ppl 238.3965    ***new best val ppl***
+Epoch  10 | running train ppl 231.7706 | val ppl 223.4056    ***new best val ppl***
+Epoch  11 | running train ppl 214.7342 | val ppl 203.9521    ***new best val ppl***
+Epoch  12 | running train ppl 194.5452 | val ppl 184.1450    ***new best val ppl***
+Epoch  13 | running train ppl 176.2974 | val ppl 168.1564    ***new best val ppl***
+Epoch  14 | running train ppl 162.7490 | val ppl 157.1873    ***new best val ppl***
+Epoch  15 | running train ppl 153.1826 | val ppl 149.1023    ***new best val ppl***
+Epoch  16 | running train ppl 145.8270 | val ppl 142.0587    ***new best val ppl***
+Epoch  17 | running train ppl 138.9321 | val ppl 135.2870    ***new best val ppl***
+Epoch  18 | running train ppl 132.3883 | val ppl 128.7909    ***new best val ppl***
+Epoch  19 | running train ppl 125.8847 | val ppl 122.4678    ***new best val ppl***
+Epoch  20 | running train ppl 119.6815 | val ppl 116.4508    ***new best val ppl***
+Epoch  21 | running train ppl 113.9298 | val ppl 111.0319    ***new best val ppl***
+Epoch  22 | running train ppl 108.8307 | val ppl 106.3813    ***new best val ppl***
+Epoch  23 | running train ppl 104.5014 | val ppl 102.3292    ***new best val ppl***
+Epoch  24 | running train ppl 100.7076 | val ppl  98.5939    ***new best val ppl***
+Epoch  25 | running train ppl  96.9527 | val ppl  94.9815    ***new best val ppl***
+Epoch  26 | running train ppl  93.4638 | val ppl  91.5643    ***new best val ppl***
+Epoch  27 | running train ppl  90.0873 | val ppl  88.3078    ***new best val ppl***
+Epoch  28 | running train ppl  86.9730 | val ppl  85.3226    ***new best val ppl***
+Epoch  29 | running train ppl  84.0770 | val ppl  82.5697    ***new best val ppl***
+Epoch  30 | running train ppl  81.4485 | val ppl  79.9833    ***new best val ppl***
+Epoch  31 | running train ppl  78.8976 | val ppl  77.4817    ***new best val ppl***
+Epoch  32 | running train ppl  76.4092 | val ppl  75.0427    ***new best val ppl***
+Epoch  33 | running train ppl  74.0249 | val ppl  72.6951    ***new best val ppl***
+Epoch  34 | running train ppl  71.6846 | val ppl  70.4567    ***new best val ppl***
+Epoch  35 | running train ppl  69.4969 | val ppl  68.2765    ***new best val ppl***
+Epoch  36 | running train ppl  67.3160 | val ppl  66.1228    ***new best val ppl***
+Epoch  37 | running train ppl  65.1921 | val ppl  63.9980    ***new best val ppl***
+Epoch  38 | running train ppl  63.1054 | val ppl  61.9087    ***new best val ppl***
+Epoch  39 | running train ppl  61.0209 | val ppl  59.8699    ***new best val ppl***
+Epoch  40 | running train ppl  59.0241 | val ppl  57.9183    ***new best val ppl***
+Epoch  41 | running train ppl  57.1082 | val ppl  56.0660    ***new best val ppl***
+Epoch  42 | running train ppl  55.3071 | val ppl  54.3130    ***new best val ppl***
+Epoch  43 | running train ppl  53.5885 | val ppl  52.6487    ***new best val ppl***
+Epoch  44 | running train ppl  51.9755 | val ppl  51.0583    ***new best val ppl***
+Epoch  45 | running train ppl  50.3965 | val ppl  49.5255    ***new best val ppl***
+Epoch  46 | running train ppl  48.9171 | val ppl  48.0503    ***new best val ppl***
+Epoch  47 | running train ppl  47.4499 | val ppl  46.6243    ***new best val ppl***
+Epoch  48 | running train ppl  46.0504 | val ppl  45.2522    ***new best val ppl***
+Epoch  49 | running train ppl  44.7288 | val ppl  43.9369    ***new best val ppl***
+Epoch  50 | running train ppl  43.4130 | val ppl  42.6496    ***new best val ppl***
+Epoch  51 | running train ppl  42.1263 | val ppl  41.3814    ***new best val ppl***
+Epoch  52 | running train ppl  40.8869 | val ppl  40.1363    ***new best val ppl***
+Epoch  53 | running train ppl  39.6731 | val ppl  38.9649    ***new best val ppl***
+Epoch  54 | running train ppl  38.5265 | val ppl  37.8564    ***new best val ppl***
+Epoch  55 | running train ppl  37.4508 | val ppl  36.8004    ***new best val ppl***
+Epoch  56 | running train ppl  36.4136 | val ppl  35.7875    ***new best val ppl***
+Epoch  57 | running train ppl  35.4201 | val ppl  34.8162    ***new best val ppl***
+Epoch  58 | running train ppl  34.4723 | val ppl  33.8793    ***new best val ppl***
+Epoch  59 | running train ppl  33.5586 | val ppl  32.9786    ***new best val ppl***
+Epoch  60 | running train ppl  32.6628 | val ppl  32.1093    ***new best val ppl***
+Epoch  61 | running train ppl  31.7879 | val ppl  31.2568    ***new best val ppl***
+Epoch  62 | running train ppl  30.9509 | val ppl  30.4377    ***new best val ppl***
+Epoch  63 | running train ppl  30.1513 | val ppl  29.6420    ***new best val ppl***
+Epoch  64 | running train ppl  29.3577 | val ppl  28.8655    ***new best val ppl***
+Epoch  65 | running train ppl  28.5995 | val ppl  28.1071    ***new best val ppl***
+Epoch  66 | running train ppl  27.8466 | val ppl  27.3731    ***new best val ppl***
+Epoch  67 | running train ppl  27.1324 | val ppl  26.6757    ***new best val ppl***
+Epoch  68 | running train ppl  26.4518 | val ppl  26.0093    ***new best val ppl***
+Epoch  69 | running train ppl  25.8058 | val ppl  25.3733    ***new best val ppl***
+Epoch  70 | running train ppl  25.1881 | val ppl  24.7689    ***new best val ppl***
+Epoch  71 | running train ppl  24.6019 | val ppl  24.1867    ***new best val ppl***
+Epoch  72 | running train ppl  23.9930 | val ppl  23.6090    ***new best val ppl***
+Epoch  73 | running train ppl  23.4445 | val ppl  23.0455    ***new best val ppl***
+Epoch  74 | running train ppl  22.8772 | val ppl  22.5178    ***new best val ppl***
+Epoch  75 | running train ppl  22.3487 | val ppl  22.0057    ***new best val ppl***
+Epoch  76 | running train ppl  21.8693 | val ppl  21.5310    ***new best val ppl***
+Epoch  77 | running train ppl  21.3970 | val ppl  21.0642    ***new best val ppl***
+Epoch  78 | running train ppl  20.9433 | val ppl  20.6201    ***new best val ppl***
+Epoch  79 | running train ppl  20.5155 | val ppl  20.1935    ***new best val ppl***
+Epoch  80 | running train ppl  20.0806 | val ppl  19.7888    ***new best val ppl***
+Epoch  81 | running train ppl  19.6984 | val ppl  19.3943    ***new best val ppl***
+Epoch  82 | running train ppl  19.3080 | val ppl  19.0138    ***new best val ppl***
+Epoch  83 | running train ppl  18.9213 | val ppl  18.6364    ***new best val ppl***
+Epoch  84 | running train ppl  18.5584 | val ppl  18.2745    ***new best val ppl***
+Epoch  85 | running train ppl  18.1966 | val ppl  17.9117    ***new best val ppl***
+Epoch  86 | running train ppl  17.8338 | val ppl  17.5556    ***new best val ppl***
+Epoch  87 | running train ppl  17.4652 | val ppl  17.1978    ***new best val ppl***
+Epoch  88 | running train ppl  17.1177 | val ppl  16.8519    ***new best val ppl***
+Epoch  89 | running train ppl  16.7886 | val ppl  16.5256    ***new best val ppl***
+Epoch  90 | running train ppl  16.4592 | val ppl  16.2079    ***new best val ppl***
+Epoch  91 | running train ppl  16.1553 | val ppl  15.9101    ***new best val ppl***
+Epoch  92 | running train ppl  15.8539 | val ppl  15.6202    ***new best val ppl***
+Epoch  93 | running train ppl  15.5554 | val ppl  15.3273    ***new best val ppl***
+Epoch  94 | running train ppl  15.2923 | val ppl  15.0599    ***new best val ppl***
+Epoch  95 | running train ppl  15.0247 | val ppl  14.7983    ***new best val ppl***
+Epoch  96 | running train ppl  14.7545 | val ppl  14.5332    ***new best val ppl***
+Epoch  97 | running train ppl  14.4983 | val ppl  14.2697    ***new best val ppl***
+Epoch  98 | running train ppl  14.2422 | val ppl  14.0169    ***new best val ppl***
+Epoch  99 | running train ppl  13.9905 | val ppl  13.7777    ***new best val ppl***
+Epoch 100 | running train ppl  13.7329 | val ppl  13.5298    ***new best val ppl***
+Epoch 101 | running train ppl  13.5112 | val ppl  13.3061    ***new best val ppl***
+Epoch 102 | running train ppl  13.2650 | val ppl  13.0696    ***new best val ppl***
+Epoch 103 | running train ppl  13.0418 | val ppl  12.8465    ***new best val ppl***
+Epoch 104 | running train ppl  12.8238 | val ppl  12.6295    ***new best val ppl***
+Epoch 105 | running train ppl  12.6053 | val ppl  12.4172    ***new best val ppl***
+Epoch 106 | running train ppl  12.3940 | val ppl  12.2107    ***new best val ppl***
+Epoch 107 | running train ppl  12.1846 | val ppl  12.0048    ***new best val ppl***
+Epoch 108 | running train ppl  11.9921 | val ppl  11.8127    ***new best val ppl***
+Epoch 109 | running train ppl  11.7992 | val ppl  11.6278    ***new best val ppl***
+Epoch 110 | running train ppl  11.6166 | val ppl  11.4360    ***new best val ppl***
+Epoch 111 | running train ppl  11.4405 | val ppl  11.2574    ***new best val ppl***
+Epoch 112 | running train ppl  11.2567 | val ppl  11.0896    ***new best val ppl***
+Epoch 113 | running train ppl  11.0834 | val ppl  10.9265    ***new best val ppl***
+Epoch 114 | running train ppl  10.9012 | val ppl  10.7483    ***new best val ppl***
+Epoch 115 | running train ppl  10.7452 | val ppl  10.5746    ***new best val ppl***
+Epoch 116 | running train ppl  10.5835 | val ppl  10.4218    ***new best val ppl***
+Epoch 117 | running train ppl  10.4157 | val ppl  10.2643    ***new best val ppl***
+Epoch 118 | running train ppl  10.2621 | val ppl  10.1089    ***new best val ppl***
+Epoch 119 | running train ppl  10.1018 | val ppl   9.9442    ***new best val ppl***
+Epoch 120 | running train ppl   9.9463 | val ppl   9.7939    ***new best val ppl***
+Epoch 121 | running train ppl   9.7980 | val ppl   9.6535    ***new best val ppl***
+Epoch 122 | running train ppl   9.6560 | val ppl   9.5064    ***new best val ppl***
+Epoch 123 | running train ppl   9.5150 | val ppl   9.3724    ***new best val ppl***
+Epoch 124 | running train ppl   9.3793 | val ppl   9.2413    ***new best val ppl***
+Epoch 125 | running train ppl   9.2478 | val ppl   9.1060    ***new best val ppl***
+Epoch 126 | running train ppl   9.1219 | val ppl   8.9734    ***new best val ppl***
+Epoch 127 | running train ppl   8.9801 | val ppl   8.8419    ***new best val ppl***
+Epoch 128 | running train ppl   8.8632 | val ppl   8.7266    ***new best val ppl***
+Epoch 129 | running train ppl   8.7365 | val ppl   8.6087    ***new best val ppl***
+Epoch 130 | running train ppl   8.6206 | val ppl   8.4990    ***new best val ppl***
+Epoch 131 | running train ppl   8.5120 | val ppl   8.3878    ***new best val ppl***
+Epoch 132 | running train ppl   8.4012 | val ppl   8.2694    ***new best val ppl***
+Epoch 133 | running train ppl   8.2886 | val ppl   8.1576    ***new best val ppl***
+Epoch 134 | running train ppl   8.1726 | val ppl   8.0462    ***new best val ppl***
+Epoch 135 | running train ppl   8.0574 | val ppl   7.9399    ***new best val ppl***
+Epoch 136 | running train ppl   7.9649 | val ppl   7.8352    ***new best val ppl***
+Epoch 137 | running train ppl   7.8510 | val ppl   7.7351    ***new best val ppl***
+Epoch 138 | running train ppl   7.7555 | val ppl   7.6365    ***new best val ppl***
+Epoch 139 | running train ppl   7.6624 | val ppl   7.5431    ***new best val ppl***
+Epoch 140 | running train ppl   7.5677 | val ppl   7.4479    ***new best val ppl***
+Epoch 141 | running train ppl   7.4754 | val ppl   7.3567    ***new best val ppl***
+Epoch 142 | running train ppl   7.3758 | val ppl   7.2678    ***new best val ppl***
+Epoch 143 | running train ppl   7.2899 | val ppl   7.1754    ***new best val ppl***
+Epoch 144 | running train ppl   7.1995 | val ppl   7.0913    ***new best val ppl***
+Epoch 145 | running train ppl   7.1071 | val ppl   6.9991    ***new best val ppl***
+Epoch 146 | running train ppl   7.0327 | val ppl   6.9186    ***new best val ppl***
+Epoch 147 | running train ppl   6.9563 | val ppl   6.8469    ***new best val ppl***
+Epoch 148 | running train ppl   6.8670 | val ppl   6.7676    ***new best val ppl***
+Epoch 149 | running train ppl   6.7942 | val ppl   6.6872    ***new best val ppl***
+Epoch 150 | running train ppl   6.7160 | val ppl   6.6156    ***new best val ppl***
+Epoch 151 | running train ppl   6.6437 | val ppl   6.5469    ***new best val ppl***
+Epoch 152 | running train ppl   6.5694 | val ppl   6.4697    ***new best val ppl***
+Epoch 153 | running train ppl   6.5093 | val ppl   6.4129    ***new best val ppl***
+Epoch 154 | running train ppl   6.4355 | val ppl   6.3428    ***new best val ppl***
+Epoch 155 | running train ppl   6.3720 | val ppl   6.2716    ***new best val ppl***
+Epoch 156 | running train ppl   6.3018 | val ppl   6.2106    ***new best val ppl***
+Epoch 157 | running train ppl   6.2391 | val ppl   6.1536    ***new best val ppl***
+Epoch 158 | running train ppl   6.1825 | val ppl   6.0904    ***new best val ppl***
+Epoch 159 | running train ppl   6.1220 | val ppl   6.0297    ***new best val ppl***
+Epoch 160 | running train ppl   6.0593 | val ppl   5.9660    ***new best val ppl***
+Epoch 161 | running train ppl   5.9963 | val ppl   5.9119    ***new best val ppl***
+Epoch 162 | running train ppl   5.9404 | val ppl   5.8511    ***new best val ppl***
+Epoch 163 | running train ppl   5.8865 | val ppl   5.8000    ***new best val ppl***
+Epoch 164 | running train ppl   5.8240 | val ppl   5.7443    ***new best val ppl***
+Epoch 165 | running train ppl   5.7722 | val ppl   5.6811    ***new best val ppl***
+Epoch 166 | running train ppl   5.7116 | val ppl   5.6276    ***new best val ppl***
+Epoch 167 | running train ppl   5.6621 | val ppl   5.5758    ***new best val ppl***
+Epoch 168 | running train ppl   5.6042 | val ppl   5.5175    ***new best val ppl***
+Epoch 169 | running train ppl   5.5524 | val ppl   5.4681    ***new best val ppl***
+Epoch 170 | running train ppl   5.4992 | val ppl   5.4197    ***new best val ppl***
+Epoch 171 | running train ppl   5.4612 | val ppl   5.3720    ***new best val ppl***
+Epoch 172 | running train ppl   5.4154 | val ppl   5.3260    ***new best val ppl***
+Epoch 173 | running train ppl   5.3670 | val ppl   5.2753    ***new best val ppl***
+Epoch 174 | running train ppl   5.3226 | val ppl   5.2362    ***new best val ppl***
+Epoch 175 | running train ppl   5.2632 | val ppl   5.1915    ***new best val ppl***
+Epoch 176 | running train ppl   5.2243 | val ppl   5.1437    ***new best val ppl***
+Epoch 177 | running train ppl   5.1762 | val ppl   5.1045    ***new best val ppl***
+Epoch 178 | running train ppl   5.1350 | val ppl   5.0555    ***new best val ppl***
+Epoch 179 | running train ppl   5.0901 | val ppl   5.0177    ***new best val ppl***
+Epoch 180 | running train ppl   5.0525 | val ppl   4.9730    ***new best val ppl***
+Epoch 181 | running train ppl   5.0193 | val ppl   4.9379    ***new best val ppl***
+Epoch 182 | running train ppl   4.9814 | val ppl   4.8996    ***new best val ppl***
+Epoch 183 | running train ppl   4.9354 | val ppl   4.8568    ***new best val ppl***
+Epoch 184 | running train ppl   4.8966 | val ppl   4.8196    ***new best val ppl***
+Epoch 185 | running train ppl   4.8541 | val ppl   4.7832    ***new best val ppl***
+Epoch 186 | running train ppl   4.8133 | val ppl   4.7416    ***new best val ppl***
+Epoch 187 | running train ppl   4.7874 | val ppl   4.7118    ***new best val ppl***
+Epoch 188 | running train ppl   4.7439 | val ppl   4.6745    ***new best val ppl***
+Epoch 189 | running train ppl   4.7176 | val ppl   4.6442    ***new best val ppl***
+Epoch 190 | running train ppl   4.6854 | val ppl   4.6127    ***new best val ppl***
+Epoch 191 | running train ppl   4.6431 | val ppl   4.5720    ***new best val ppl***
+Epoch 192 | running train ppl   4.6193 | val ppl   4.5453    ***new best val ppl***
+Epoch 193 | running train ppl   4.5752 | val ppl   4.5109    ***new best val ppl***
+Epoch 194 | running train ppl   4.5495 | val ppl   4.4764    ***new best val ppl***
+Epoch 195 | running train ppl   4.5111 | val ppl   4.4438    ***new best val ppl***
+Epoch 196 | running train ppl   4.4855 | val ppl   4.4082    ***new best val ppl***
+Epoch 197 | running train ppl   4.4483 | val ppl   4.3783    ***new best val ppl***
+Epoch 198 | running train ppl   4.4202 | val ppl   4.3450    ***new best val ppl***
+Epoch 199 | running train ppl   4.3838 | val ppl   4.3199    ***new best val ppl***
+Epoch 200 | running train ppl   4.3480 | val ppl   4.2894    ***new best val ppl***
+Epoch 201 | running train ppl   4.3238 | val ppl   4.2558    ***new best val ppl***
+Epoch 202 | running train ppl   4.2965 | val ppl   4.2327    ***new best val ppl***
+Epoch 203 | running train ppl   4.2700 | val ppl   4.2032    ***new best val ppl***
+Epoch 204 | running train ppl   4.2445 | val ppl   4.1742    ***new best val ppl***
+Epoch 205 | running train ppl   4.2162 | val ppl   4.1469    ***new best val ppl***
+Epoch 206 | running train ppl   4.1827 | val ppl   4.1204    ***new best val ppl***
+Epoch 207 | running train ppl   4.1633 | val ppl   4.0945    ***new best val ppl***
+Epoch 208 | running train ppl   4.1334 | val ppl   4.0687    ***new best val ppl***
+Epoch 209 | running train ppl   4.1072 | val ppl   4.0407    ***new best val ppl***
+Epoch 210 | running train ppl   4.0807 | val ppl   4.0224    ***new best val ppl***
+Epoch 211 | running train ppl   4.0620 | val ppl   4.0001    ***new best val ppl***
+Epoch 212 | running train ppl   4.0371 | val ppl   3.9767    ***new best val ppl***
+Epoch 213 | running train ppl   4.0227 | val ppl   3.9613    ***new best val ppl***
+Epoch 214 | running train ppl   3.9914 | val ppl   3.9343    ***new best val ppl***
+Epoch 215 | running train ppl   3.9715 | val ppl   3.9077    ***new best val ppl***
+Epoch 216 | running train ppl   3.9487 | val ppl   3.8821    ***new best val ppl***
+Epoch 217 | running train ppl   3.9255 | val ppl   3.8668    ***new best val ppl***
+Epoch 218 | running train ppl   3.9009 | val ppl   3.8448    ***new best val ppl***
+Epoch 219 | running train ppl   3.8787 | val ppl   3.8239    ***new best val ppl***
+Epoch 220 | running train ppl   3.8630 | val ppl   3.8000    ***new best val ppl***
+Epoch 221 | running train ppl   3.8444 | val ppl   3.7777    ***new best val ppl***
+Epoch 222 | running train ppl   3.8271 | val ppl   3.7663    ***new best val ppl***
+Epoch 223 | running train ppl   3.8039 | val ppl   3.7392    ***new best val ppl***
+Epoch 224 | running train ppl   3.7753 | val ppl   3.7189    ***new best val ppl***
+Epoch 225 | running train ppl   3.7598 | val ppl   3.6935    ***new best val ppl***
+Epoch 226 | running train ppl   3.7389 | val ppl   3.6791    ***new best val ppl***
+Epoch 227 | running train ppl   3.7218 | val ppl   3.6559    ***new best val ppl***
+Epoch 228 | running train ppl   3.7058 | val ppl   3.6355    ***new best val ppl***
+Epoch 229 | running train ppl   3.6936 | val ppl   3.6255    ***new best val ppl***
+Epoch 230 | running train ppl   3.6584 | val ppl   3.6058    ***new best val ppl***
+Epoch 231 | running train ppl   3.6360 | val ppl   3.5877    ***new best val ppl***
+Epoch 232 | running train ppl   3.6266 | val ppl   3.5630    ***new best val ppl***
+Epoch 233 | running train ppl   3.6073 | val ppl   3.5467    ***new best val ppl***
+Epoch 234 | running train ppl   3.5847 | val ppl   3.5340    ***new best val ppl***
+Epoch 235 | running train ppl   3.5662 | val ppl   3.5098    ***new best val ppl***
+Epoch 236 | running train ppl   3.5571 | val ppl   3.4879    ***new best val ppl***
+Epoch 237 | running train ppl   3.5388 | val ppl   3.4774    ***new best val ppl***
+Epoch 238 | running train ppl   3.5209 | val ppl   3.4571    ***new best val ppl***
+Epoch 239 | running train ppl   3.4995 | val ppl   3.4485    ***new best val ppl***
+Epoch 240 | running train ppl   3.4819 | val ppl   3.4311    ***new best val ppl***
+Epoch 241 | running train ppl   3.4661 | val ppl   3.4085    ***new best val ppl***
+Epoch 242 | running train ppl   3.4494 | val ppl   3.3931    ***new best val ppl***
+Epoch 243 | running train ppl   3.4374 | val ppl   3.3804    ***new best val ppl***
+Epoch 244 | running train ppl   3.4224 | val ppl   3.3645    ***new best val ppl***
+Epoch 245 | running train ppl   3.4086 | val ppl   3.3512    ***new best val ppl***
+Epoch 246 | running train ppl   3.3986 | val ppl   3.3395    ***new best val ppl***
+Epoch 247 | running train ppl   3.3819 | val ppl   3.3320    ***new best val ppl***
+Epoch 248 | running train ppl   3.3777 | val ppl   3.3141    ***new best val ppl***
+Epoch 249 | running train ppl   3.3635 | val ppl   3.3096    ***new best val ppl***
+Epoch 250 | running train ppl   3.3432 | val ppl   3.2892    ***new best val ppl***
+Epoch 251 | running train ppl   3.3321 | val ppl   3.2733    ***new best val ppl***
+Epoch 252 | running train ppl   3.3124 | val ppl   3.2575    ***new best val ppl***
+Epoch 253 | running train ppl   3.3016 | val ppl   3.2484    ***new best val ppl***
+Epoch 254 | running train ppl   3.2842 | val ppl   3.2280    ***new best val ppl***
+Epoch 255 | running train ppl   3.2723 | val ppl   3.2191    ***new best val ppl***
+Epoch 256 | running train ppl   3.2621 | val ppl   3.2067    ***new best val ppl***
+Epoch 257 | running train ppl   3.2453 | val ppl   3.1973    ***new best val ppl***
+Epoch 258 | running train ppl   3.2404 | val ppl   3.1868    ***new best val ppl***
+Epoch 259 | running train ppl   3.2281 | val ppl   3.1727    ***new best val ppl***
+Epoch 260 | running train ppl   3.2100 | val ppl   3.1566    ***new best val ppl***
+Epoch 261 | running train ppl   3.2080 | val ppl   3.1511    ***new best val ppl***
+Epoch 262 | running train ppl   3.1952 | val ppl   3.1448    ***new best val ppl***
+Epoch 263 | running train ppl   3.1907 | val ppl   3.1322    ***new best val ppl***
+Epoch 264 | running train ppl   3.1755 | val ppl   3.1198    ***new best val ppl***
+Epoch 265 | running train ppl   3.1660 | val ppl   3.1025    ***new best val ppl***
+Epoch 266 | running train ppl   3.1577 | val ppl   3.1008    ***new best val ppl***
+Epoch 267 | running train ppl   3.1452 | val ppl   3.0869    ***new best val ppl***
+Epoch 268 | running train ppl   3.1322 | val ppl   3.0795    ***new best val ppl***
+Epoch 269 | running train ppl   3.1154 | val ppl   3.0713    ***new best val ppl***
+Epoch 270 | running train ppl   3.1162 | val ppl   3.0498    ***new best val ppl***
+Epoch 271 | running train ppl   3.0972 | val ppl   3.0432    ***new best val ppl***
+Epoch 272 | running train ppl   3.0884 | val ppl   3.0294    ***new best val ppl***
+Epoch 273 | running train ppl   3.0777 | val ppl   3.0246    ***new best val ppl***
+Epoch 274 | running train ppl   3.0687 | val ppl   3.0101    ***new best val ppl***
+Epoch 275 | running train ppl   3.0571 | val ppl   3.0041    ***new best val ppl***
+Epoch 276 | running train ppl   3.0476 | val ppl   2.9943    ***new best val ppl***
+Epoch 277 | running train ppl   3.0394 | val ppl   2.9837    ***new best val ppl***
+Epoch 278 | running train ppl   3.0298 | val ppl   2.9740    ***new best val ppl***
+Epoch 279 | running train ppl   3.0160 | val ppl   2.9664    ***new best val ppl***
+Epoch 280 | running train ppl   3.0159 | val ppl   2.9605    ***new best val ppl***
+Epoch 281 | running train ppl   2.9950 | val ppl   2.9450    ***new best val ppl***
+Epoch 282 | running train ppl   2.9916 | val ppl   2.9380    ***new best val ppl***
+Epoch 283 | running train ppl   2.9780 | val ppl   2.9326    ***new best val ppl***
+Epoch 284 | running train ppl   2.9791 | val ppl   2.9201    ***new best val ppl***
+Epoch 285 | running train ppl   2.9666 | val ppl   2.9106    ***new best val ppl***
+Epoch 286 | running train ppl   2.9566 | val ppl   2.8984    ***new best val ppl***
+Epoch 287 | running train ppl   2.9461 | val ppl   2.8924    ***new best val ppl***
+Epoch 288 | running train ppl   2.9502 | val ppl   2.9002    
+Epoch 289 | running train ppl   2.9367 | val ppl   2.8866    ***new best val ppl***
+Epoch 290 | running train ppl   2.9219 | val ppl   2.8755    ***new best val ppl***
+Epoch 291 | running train ppl   2.9155 | val ppl   2.8668    ***new best val ppl***
+Epoch 292 | running train ppl   2.9086 | val ppl   2.8520    ***new best val ppl***
+Epoch 293 | running train ppl   2.9020 | val ppl   2.8451    ***new best val ppl***
+Epoch 294 | running train ppl   2.8888 | val ppl   2.8358    ***new best val ppl***
+Epoch 295 | running train ppl   2.8827 | val ppl   2.8323    ***new best val ppl***
+Epoch 296 | running train ppl   2.8679 | val ppl   2.8202    ***new best val ppl***
+Epoch 297 | running train ppl   2.8658 | val ppl   2.8058    ***new best val ppl***
+Epoch 298 | running train ppl   2.8586 | val ppl   2.8073    
+Epoch 299 | running train ppl   2.8467 | val ppl   2.8023    ***new best val ppl***
+Epoch 300 | running train ppl   2.8443 | val ppl   2.7896    ***new best val ppl***
+Epoch 301 | running train ppl   2.8332 | val ppl   2.7802    ***new best val ppl***
+Epoch 302 | running train ppl   2.8285 | val ppl   2.7727    ***new best val ppl***
+Epoch 303 | running train ppl   2.8210 | val ppl   2.7686    ***new best val ppl***
+Epoch 304 | running train ppl   2.8231 | val ppl   2.7567    ***new best val ppl***
+Epoch 305 | running train ppl   2.8062 | val ppl   2.7503    ***new best val ppl***
+Epoch 306 | running train ppl   2.7988 | val ppl   2.7422    ***new best val ppl***
+Epoch 307 | running train ppl   2.7878 | val ppl   2.7372    ***new best val ppl***
+Epoch 308 | running train ppl   2.7873 | val ppl   2.7287    ***new best val ppl***
+Epoch 309 | running train ppl   2.7764 | val ppl   2.7218    ***new best val ppl***
+Epoch 310 | running train ppl   2.7682 | val ppl   2.7196    ***new best val ppl***
+Epoch 311 | running train ppl   2.7716 | val ppl   2.7137    ***new best val ppl***
+Epoch 312 | running train ppl   2.7524 | val ppl   2.6991    ***new best val ppl***
+Epoch 313 | running train ppl   2.7487 | val ppl   2.6981    ***new best val ppl***
+Epoch 314 | running train ppl   2.7453 | val ppl   2.6859    ***new best val ppl***
+Epoch 315 | running train ppl   2.7282 | val ppl   2.6797    ***new best val ppl***
+Epoch 316 | running train ppl   2.7350 | val ppl   2.6839    
+Epoch 317 | running train ppl   2.7364 | val ppl   2.6830    
+Epoch 318 | running train ppl   2.7255 | val ppl   2.6741    ***new best val ppl***
+Epoch 319 | running train ppl   2.7286 | val ppl   2.6650    ***new best val ppl***
+Epoch 320 | running train ppl   2.7134 | val ppl   2.6665    
+Epoch 321 | running train ppl   2.7009 | val ppl   2.6544    ***new best val ppl***
+Epoch 322 | running train ppl   2.6986 | val ppl   2.6388    ***new best val ppl***
+Epoch 323 | running train ppl   2.7072 | val ppl   2.6393    
+Epoch 324 | running train ppl   2.6818 | val ppl   2.6274    ***new best val ppl***
+Epoch 325 | running train ppl   2.6770 | val ppl   2.6179    ***new best val ppl***
+Epoch 326 | running train ppl   2.6727 | val ppl   2.6162    ***new best val ppl***
+Epoch 327 | running train ppl   2.6662 | val ppl   2.6151    ***new best val ppl***
+Epoch 328 | running train ppl   2.6639 | val ppl   2.6109    ***new best val ppl***
+Epoch 329 | running train ppl   2.6499 | val ppl   2.6094    ***new best val ppl***
+Epoch 330 | running train ppl   2.6517 | val ppl   2.5981    ***new best val ppl***
+Epoch 331 | running train ppl   2.6474 | val ppl   2.5933    ***new best val ppl***
+Epoch 332 | running train ppl   2.6358 | val ppl   2.5770    ***new best val ppl***
+Epoch 333 | running train ppl   2.6352 | val ppl   2.5899    
+Epoch 334 | running train ppl   2.6360 | val ppl   2.5905    
+Epoch 335 | running train ppl   2.6304 | val ppl   2.5871    
+Epoch 336 | running train ppl   2.6434 | val ppl   2.5737    ***new best val ppl***
+Epoch 337 | running train ppl   2.6227 | val ppl   2.5517    ***new best val ppl***
+Epoch 338 | running train ppl   2.6223 | val ppl   2.5482    ***new best val ppl***
+Epoch 339 | running train ppl   2.6085 | val ppl   2.5475    ***new best val ppl***
+Epoch 340 | running train ppl   2.6037 | val ppl   2.5602    
+Epoch 341 | running train ppl   2.6037 | val ppl   2.5425    ***new best val ppl***
+Epoch 342 | running train ppl   2.5953 | val ppl   2.5439    
+Epoch 343 | running train ppl   2.5934 | val ppl   2.5297    ***new best val ppl***
+Epoch 344 | running train ppl   2.5822 | val ppl   2.5251    ***new best val ppl***
+Epoch 345 | running train ppl   2.5909 | val ppl   2.5333    
+Epoch 346 | running train ppl   2.5791 | val ppl   2.5166    ***new best val ppl***
+Epoch 347 | running train ppl   2.5706 | val ppl   2.5099    ***new best val ppl***
+Epoch 348 | running train ppl   2.5648 | val ppl   2.5068    ***new best val ppl***
+Epoch 349 | running train ppl   2.5578 | val ppl   2.5018    ***new best val ppl***
+Epoch 350 | running train ppl   2.5457 | val ppl   2.4932    ***new best val ppl***
+Epoch 351 | running train ppl   2.5542 | val ppl   2.5017    
+Epoch 352 | running train ppl   2.5413 | val ppl   2.4914    ***new best val ppl***
+Epoch 353 | running train ppl   2.5454 | val ppl   2.4915    
+Epoch 354 | running train ppl   2.5388 | val ppl   2.4763    ***new best val ppl***
+Epoch 355 | running train ppl   2.5294 | val ppl   2.4740    ***new best val ppl***
+Epoch 356 | running train ppl   2.5355 | val ppl   2.4752    
+Epoch 357 | running train ppl   2.5115 | val ppl   2.4680    ***new best val ppl***
+Epoch 358 | running train ppl   2.5185 | val ppl   2.4608    ***new best val ppl***
+Epoch 359 | running train ppl   2.5303 | val ppl   2.4646    
+Epoch 360 | running train ppl   2.5169 | val ppl   2.4625    
+Epoch 361 | running train ppl   2.5132 | val ppl   2.4568    ***new best val ppl***
+Epoch 362 | running train ppl   2.5062 | val ppl   2.4571    
+Epoch 363 | running train ppl   2.5056 | val ppl   2.4547    ***new best val ppl***
+Epoch 364 | running train ppl   2.5005 | val ppl   2.4515    ***new best val ppl***
+Epoch 365 | running train ppl   2.4972 | val ppl   2.4473    ***new best val ppl***
+Epoch 366 | running train ppl   2.5059 | val ppl   2.4496    
+Epoch 367 | running train ppl   2.4978 | val ppl   2.4504    
+Epoch 368 | running train ppl   2.4928 | val ppl   2.4334    ***new best val ppl***
+Epoch 369 | running train ppl   2.4788 | val ppl   2.4247    ***new best val ppl***
+Epoch 370 | running train ppl   2.4822 | val ppl   2.4224    ***new best val ppl***
+Epoch 371 | running train ppl   2.4798 | val ppl   2.4206    ***new best val ppl***
+Epoch 372 | running train ppl   2.4593 | val ppl   2.4140    ***new best val ppl***
+Epoch 373 | running train ppl   2.4591 | val ppl   2.4098    ***new best val ppl***
+Epoch 374 | running train ppl   2.4648 | val ppl   2.4038    ***new best val ppl***
+Epoch 375 | running train ppl   2.4583 | val ppl   2.4018    ***new best val ppl***
+Epoch 376 | running train ppl   2.4595 | val ppl   2.4049    
+Epoch 377 | running train ppl   2.4676 | val ppl   2.3997    ***new best val ppl***
+Epoch 378 | running train ppl   2.4722 | val ppl   2.4083    
+Epoch 379 | running train ppl   2.4569 | val ppl   2.4065    
+Epoch 380 | running train ppl   2.4721 | val ppl   2.3977    ***new best val ppl***
+Epoch 381 | running train ppl   2.4726 | val ppl   2.4058    
+Epoch 382 | running train ppl   2.4558 | val ppl   2.4095    
+Epoch 383 | running train ppl   2.4549 | val ppl   2.3940    ***new best val ppl***
+Epoch 384 | running train ppl   2.4544 | val ppl   2.3944    
+Epoch 385 | running train ppl   2.4524 | val ppl   2.3864    ***new best val ppl***
+Epoch 386 | running train ppl   2.4355 | val ppl   2.3711    ***new best val ppl***
+Epoch 387 | running train ppl   2.4239 | val ppl   2.3713    
+Epoch 388 | running train ppl   2.4251 | val ppl   2.3676    ***new best val ppl***
+Epoch 389 | running train ppl   2.4166 | val ppl   2.3559    ***new best val ppl***
+Epoch 390 | running train ppl   2.4146 | val ppl   2.3664    
+Epoch 391 | running train ppl   2.4202 | val ppl   2.3583    
+Epoch 392 | running train ppl   2.4241 | val ppl   2.3579    
+Epoch 393 | running train ppl   2.4324 | val ppl   2.3701    
+Epoch 394 | running train ppl   2.4134 | val ppl   2.3634    
+Epoch 395 | running train ppl   2.4091 | val ppl   2.3477    ***new best val ppl***
+Epoch 396 | running train ppl   2.4065 | val ppl   2.3417    ***new best val ppl***
+Epoch 397 | running train ppl   2.3925 | val ppl   2.3420    
+Epoch 398 | running train ppl   2.4075 | val ppl   2.3390    ***new best val ppl***
+Epoch 399 | running train ppl   2.3918 | val ppl   2.3426    
+Epoch 400 | running train ppl   2.3989 | val ppl   2.3339    ***new best val ppl***
+Epoch 401 | running train ppl   2.4033 | val ppl   2.3431    
+Epoch 402 | running train ppl   2.3934 | val ppl   2.3295    ***new best val ppl***
+Epoch 403 | running train ppl   2.3994 | val ppl   2.3349    
+Epoch 404 | running train ppl   2.3919 | val ppl   2.3336    
+Epoch 405 | running train ppl   2.3813 | val ppl   2.3223    ***new best val ppl***
+Epoch 406 | running train ppl   2.3926 | val ppl   2.3318    
+Epoch 407 | running train ppl   2.3757 | val ppl   2.3075    ***new best val ppl***
+Epoch 408 | running train ppl   2.3798 | val ppl   2.3110    
+Epoch 409 | running train ppl   2.3587 | val ppl   2.3145    
+Epoch 410 | running train ppl   2.3707 | val ppl   2.2992    ***new best val ppl***
+Epoch 411 | running train ppl   2.3567 | val ppl   2.2944    ***new best val ppl***
+Epoch 412 | running train ppl   2.3488 | val ppl   2.2941    ***new best val ppl***
+Epoch 413 | running train ppl   2.3578 | val ppl   2.2986    
+Epoch 414 | running train ppl   2.3644 | val ppl   2.2940    ***new best val ppl***
+Epoch 415 | running train ppl   2.3635 | val ppl   2.2987    
+Epoch 416 | running train ppl   2.3572 | val ppl   2.3011    
+Epoch 417 | running train ppl   2.3587 | val ppl   2.2949    
+Epoch 418 | running train ppl   2.3710 | val ppl   2.2956    
+Epoch 419 | running train ppl   2.3533 | val ppl   2.2826    ***new best val ppl***
+Epoch 420 | running train ppl   2.3618 | val ppl   2.2994    
+Epoch 421 | running train ppl   2.3490 | val ppl   2.3025    
+Epoch 422 | running train ppl   2.3682 | val ppl   2.3099    
+Epoch 423 | running train ppl   2.3693 | val ppl   2.3079    
+Epoch 424 | running train ppl   2.3494 | val ppl   2.2846    
+Epoch 425 | running train ppl   2.3465 | val ppl   2.2861    
+Epoch 426 | running train ppl   2.3494 | val ppl   2.2854    
+Optimized Perplexity: 1.972964
+tooth: follow-up partner africa energy colleagues does consensus 're cap plan 
+head: according skater ability plans way push second back left try 
+growth: lead workers lama williams firms bilateral regulatory bader also stoke 
+focus: tournament adviser talks anton winner chile vacancies announcement qualify driver 
+w.: robert vancouver bahrain giant web striker korean 8 even yin 
+democratic: daily ghanaian local party day office government regulations solidarity jiabao 
+tibet: unable able chance prefer determined measures response plans women according 
+u.n.: continue formal strong by internet energy poor ensure although third 
+aid: then full pie left from wishes players up although parliamentary 
+until: tour involved in releasing advanced other from keep 8 round 
+Tracker:  2
+Dim:   30 LR:   3e-05
+-------------------------------------------------------------------------------
+Using 11449 tokens for training (10% of 114491)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 1000 (excluding UNK) (original 2707)
+FFLM(
+  (E): Embedding(1001, 30)
+  (FF): FF(
+    (stack): ModuleList(
+      (0): Sequential(
+        (0): Linear(in_features=90, out_features=30, bias=True)
+        (1): ReLU()
+      )
+    )
+    (out): Linear(in_features=30, out_features=1001, bias=True)
+  )
+  (mean_ce): CrossEntropyLoss()
+  (sum_ce): CrossEntropyLoss()
+)
+Epoch   1 | running train ppl 876.4772 | val ppl 626.5072    ***new best val ppl***
+Epoch   2 | running train ppl 423.1853 | val ppl 294.0762    ***new best val ppl***
+Epoch   3 | running train ppl 264.4913 | val ppl 227.9923    ***new best val ppl***
+Epoch   4 | running train ppl 197.9138 | val ppl 165.6509    ***new best val ppl***
+Epoch   5 | running train ppl 154.3332 | val ppl 140.2752    ***new best val ppl***
+Epoch   6 | running train ppl 130.3063 | val ppl 116.7237    ***new best val ppl***
+Epoch   7 | running train ppl 109.6598 | val ppl 100.9215    ***new best val ppl***
+Epoch   8 | running train ppl  95.3443 | val ppl  87.6512    ***new best val ppl***
+Epoch   9 | running train ppl  83.9179 | val ppl  78.3193    ***new best val ppl***
+Epoch  10 | running train ppl  75.1574 | val ppl  70.1049    ***new best val ppl***
+Epoch  11 | running train ppl  67.1348 | val ppl  62.4517    ***new best val ppl***
+Epoch  12 | running train ppl  59.7411 | val ppl  55.5676    ***new best val ppl***
+Epoch  13 | running train ppl  53.3092 | val ppl  49.6473    ***new best val ppl***
+Epoch  14 | running train ppl  47.7350 | val ppl  44.5143    ***new best val ppl***
+Epoch  15 | running train ppl  42.9976 | val ppl  40.1267    ***new best val ppl***
+Epoch  16 | running train ppl  38.9496 | val ppl  36.3509    ***new best val ppl***
+Epoch  17 | running train ppl  35.3786 | val ppl  33.0654    ***new best val ppl***
+Epoch  18 | running train ppl  32.3529 | val ppl  30.2279    ***new best val ppl***
+Epoch  19 | running train ppl  29.5266 | val ppl  27.6317    ***new best val ppl***
+Epoch  20 | running train ppl  27.1074 | val ppl  25.3515    ***new best val ppl***
+Epoch  21 | running train ppl  24.9197 | val ppl  23.3471    ***new best val ppl***
+Epoch  22 | running train ppl  22.9638 | val ppl  21.5500    ***new best val ppl***
+Epoch  23 | running train ppl  21.3462 | val ppl  20.0452    ***new best val ppl***
+Epoch  24 | running train ppl  19.8887 | val ppl  18.7217    ***new best val ppl***
+Epoch  25 | running train ppl  18.5367 | val ppl  17.4557    ***new best val ppl***
+Epoch  26 | running train ppl  17.3590 | val ppl  16.3557    ***new best val ppl***
+Epoch  27 | running train ppl  16.2918 | val ppl  15.3477    ***new best val ppl***
+Epoch  28 | running train ppl  15.2999 | val ppl  14.4614    ***new best val ppl***
+Epoch  29 | running train ppl  14.3952 | val ppl  13.5785    ***new best val ppl***
+Epoch  30 | running train ppl  13.6036 | val ppl  12.8517    ***new best val ppl***
+Epoch  31 | running train ppl  12.8745 | val ppl  12.1053    ***new best val ppl***
+Epoch  32 | running train ppl  12.1832 | val ppl  11.5196    ***new best val ppl***
+Epoch  33 | running train ppl  11.5601 | val ppl  10.9586    ***new best val ppl***
+Epoch  34 | running train ppl  11.0218 | val ppl  10.4410    ***new best val ppl***
+Epoch  35 | running train ppl  10.5178 | val ppl   9.9200    ***new best val ppl***
+Epoch  36 | running train ppl  10.0513 | val ppl   9.4289    ***new best val ppl***
+Epoch  37 | running train ppl   9.5873 | val ppl   9.0791    ***new best val ppl***
+Epoch  38 | running train ppl   9.1576 | val ppl   8.6230    ***new best val ppl***
+Epoch  39 | running train ppl   8.7473 | val ppl   8.2562    ***new best val ppl***
+Epoch  40 | running train ppl   8.3944 | val ppl   7.9532    ***new best val ppl***
+Epoch  41 | running train ppl   8.0580 | val ppl   7.6280    ***new best val ppl***
+Epoch  42 | running train ppl   7.7446 | val ppl   7.3261    ***new best val ppl***
+Epoch  43 | running train ppl   7.4304 | val ppl   7.0361    ***new best val ppl***
+Epoch  44 | running train ppl   7.1745 | val ppl   6.8045    ***new best val ppl***
+Epoch  45 | running train ppl   6.8902 | val ppl   6.5336    ***new best val ppl***
+Epoch  46 | running train ppl   6.6747 | val ppl   6.3784    ***new best val ppl***
+Epoch  47 | running train ppl   6.4632 | val ppl   6.1275    ***new best val ppl***
+Epoch  48 | running train ppl   6.2647 | val ppl   5.9709    ***new best val ppl***
+Epoch  49 | running train ppl   6.0850 | val ppl   5.7663    ***new best val ppl***
+Epoch  50 | running train ppl   5.8893 | val ppl   5.5920    ***new best val ppl***
+Epoch  51 | running train ppl   5.6999 | val ppl   5.4212    ***new best val ppl***
+Epoch  52 | running train ppl   5.5503 | val ppl   5.2832    ***new best val ppl***
+Epoch  53 | running train ppl   5.4188 | val ppl   5.1518    ***new best val ppl***
+Epoch  54 | running train ppl   5.2609 | val ppl   5.0411    ***new best val ppl***
+Epoch  55 | running train ppl   5.1538 | val ppl   4.9051    ***new best val ppl***
+Epoch  56 | running train ppl   5.0351 | val ppl   4.8027    ***new best val ppl***
+Epoch  57 | running train ppl   4.9165 | val ppl   4.6847    ***new best val ppl***
+Epoch  58 | running train ppl   4.8009 | val ppl   4.5863    ***new best val ppl***
+Epoch  59 | running train ppl   4.7207 | val ppl   4.4780    ***new best val ppl***
+Epoch  60 | running train ppl   4.6098 | val ppl   4.4074    ***new best val ppl***
+Epoch  61 | running train ppl   4.5048 | val ppl   4.2948    ***new best val ppl***
+Epoch  62 | running train ppl   4.4198 | val ppl   4.2448    ***new best val ppl***
+Epoch  63 | running train ppl   4.3486 | val ppl   4.1443    ***new best val ppl***
+Epoch  64 | running train ppl   4.2611 | val ppl   4.0534    ***new best val ppl***
+Epoch  65 | running train ppl   4.2099 | val ppl   3.9812    ***new best val ppl***
+Epoch  66 | running train ppl   4.1308 | val ppl   3.9348    ***new best val ppl***
+Epoch  67 | running train ppl   4.0671 | val ppl   3.8822    ***new best val ppl***
+Epoch  68 | running train ppl   4.0078 | val ppl   3.8282    ***new best val ppl***
+Epoch  69 | running train ppl   3.9254 | val ppl   3.7401    ***new best val ppl***
+Epoch  70 | running train ppl   3.8804 | val ppl   3.6991    ***new best val ppl***
+Epoch  71 | running train ppl   3.8136 | val ppl   3.6457    ***new best val ppl***
+Epoch  72 | running train ppl   3.7817 | val ppl   3.6346    ***new best val ppl***
+Epoch  73 | running train ppl   3.7189 | val ppl   3.5503    ***new best val ppl***
+Epoch  74 | running train ppl   3.6769 | val ppl   3.5149    ***new best val ppl***
+Epoch  75 | running train ppl   3.6634 | val ppl   3.4801    ***new best val ppl***
+Epoch  76 | running train ppl   3.6012 | val ppl   3.4246    ***new best val ppl***
+Epoch  77 | running train ppl   3.5428 | val ppl   3.3877    ***new best val ppl***
+Epoch  78 | running train ppl   3.5213 | val ppl   3.3575    ***new best val ppl***
+Epoch  79 | running train ppl   3.5032 | val ppl   3.3577    
+Epoch  80 | running train ppl   3.5056 | val ppl   3.3179    ***new best val ppl***
+Epoch  81 | running train ppl   3.4324 | val ppl   3.2666    ***new best val ppl***
+Epoch  82 | running train ppl   3.3833 | val ppl   3.2563    ***new best val ppl***
+Epoch  83 | running train ppl   3.3760 | val ppl   3.2190    ***new best val ppl***
+Epoch  84 | running train ppl   3.3575 | val ppl   3.2096    ***new best val ppl***
+Epoch  85 | running train ppl   3.3560 | val ppl   3.1684    ***new best val ppl***
+Epoch  86 | running train ppl   3.2917 | val ppl   3.1508    ***new best val ppl***
+Epoch  87 | running train ppl   3.3018 | val ppl   3.1722    
+Epoch  88 | running train ppl   3.2908 | val ppl   3.1381    ***new best val ppl***
+Epoch  89 | running train ppl   3.2262 | val ppl   3.0581    ***new best val ppl***
+Epoch  90 | running train ppl   3.2179 | val ppl   3.0357    ***new best val ppl***
+Epoch  91 | running train ppl   3.1659 | val ppl   2.9953    ***new best val ppl***
+Epoch  92 | running train ppl   3.1507 | val ppl   3.0127    
+Epoch  93 | running train ppl   3.1594 | val ppl   3.0142    
+Epoch  94 | running train ppl   3.1421 | val ppl   2.9737    ***new best val ppl***
+Epoch  95 | running train ppl   3.1476 | val ppl   2.9611    ***new best val ppl***
+Epoch  96 | running train ppl   3.1045 | val ppl   2.9698    
+Epoch  97 | running train ppl   3.1013 | val ppl   2.9399    ***new best val ppl***
+Epoch  98 | running train ppl   3.0879 | val ppl   2.9306    ***new best val ppl***
+Epoch  99 | running train ppl   3.0787 | val ppl   2.9216    ***new best val ppl***
+Epoch 100 | running train ppl   3.0487 | val ppl   2.9023    ***new best val ppl***
+Epoch 101 | running train ppl   3.0386 | val ppl   2.8824    ***new best val ppl***
+Epoch 102 | running train ppl   3.0656 | val ppl   2.8620    ***new best val ppl***
+Epoch 103 | running train ppl   3.0105 | val ppl   2.8458    ***new best val ppl***
+Epoch 104 | running train ppl   3.0101 | val ppl   2.8269    ***new best val ppl***
+Epoch 105 | running train ppl   2.9877 | val ppl   2.8454    
+Epoch 106 | running train ppl   3.0219 | val ppl   2.8319    
+Epoch 107 | running train ppl   2.9866 | val ppl   2.8239    ***new best val ppl***
+Epoch 108 | running train ppl   2.9881 | val ppl   2.8253    
+Epoch 109 | running train ppl   2.9679 | val ppl   2.7833    ***new best val ppl***
+Epoch 110 | running train ppl   2.9478 | val ppl   2.7848    
+Epoch 111 | running train ppl   2.9361 | val ppl   2.7540    ***new best val ppl***
+Epoch 112 | running train ppl   2.9274 | val ppl   2.8123    
+Epoch 113 | running train ppl   2.9663 | val ppl   2.7601    
+Epoch 114 | running train ppl   2.9396 | val ppl   2.7945    
+Epoch 115 | running train ppl   2.9830 | val ppl   2.8062    
+Epoch 116 | running train ppl   2.9408 | val ppl   2.7382    ***new best val ppl***
+Epoch 117 | running train ppl   2.9691 | val ppl   2.7993    
+Epoch 118 | running train ppl   2.9961 | val ppl   2.8411    
+Epoch 119 | running train ppl   2.9720 | val ppl   2.8057    
+Epoch 120 | running train ppl   2.9745 | val ppl   2.7585    
+Epoch 121 | running train ppl   2.9926 | val ppl   2.7724    
+Epoch 122 | running train ppl   2.9530 | val ppl   2.7882    
+Epoch 123 | running train ppl   2.9655 | val ppl   2.7564    
+Optimized Perplexity: 1.802679
+regulatory: bad web npc medical carbon quake growth reconciliation 27 guy 
+squad: ) media response bid they right nba wanted long mother 
+finished: injured agenda group way met leading ignored trophy head commitment 
+out: site win verbeek iran recover need candidate available briefing experience 
+carbon: full regulatory would might afp will consumer michael if gas 
+met: percent relief cuban service group damage finished minute weekend senate 
+commentary: proposal found agreement begun move ohno ryan briefing territory said 
+event: american 're turn must follow-up things let leader open consensus 
+tackle: opportunity skater and formal noting taking from shape unable back 
+carlos: countries fabio were street commitment pyongyang miss make election bahrain 
+Tracker:  3
+Dim:   30 LR:   0.0001
+-------------------------------------------------------------------------------
+Using 11449 tokens for training (10% of 114491)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 1000 (excluding UNK) (original 2707)
+FFLM(
+  (E): Embedding(1001, 30)
+  (FF): FF(
+    (stack): ModuleList(
+      (0): Sequential(
+        (0): Linear(in_features=90, out_features=30, bias=True)
+        (1): ReLU()
+      )
+    )
+    (out): Linear(in_features=30, out_features=1001, bias=True)
+  )
+  (mean_ce): CrossEntropyLoss()
+  (sum_ce): CrossEntropyLoss()
+)
+Epoch   1 | running train ppl 504.1960 | val ppl 220.7045    ***new best val ppl***
+Epoch   2 | running train ppl 173.7637 | val ppl 120.2932    ***new best val ppl***
+Epoch   3 | running train ppl 111.5170 | val ppl  87.4185    ***new best val ppl***
+Epoch   4 | running train ppl  77.8079 | val ppl  58.3898    ***new best val ppl***
+Epoch   5 | running train ppl  53.3015 | val ppl  41.1059    ***new best val ppl***
+Epoch   6 | running train ppl  39.2409 | val ppl  30.5834    ***new best val ppl***
+Epoch   7 | running train ppl  30.1763 | val ppl  23.8911    ***new best val ppl***
+Epoch   8 | running train ppl  24.0644 | val ppl  19.2717    ***new best val ppl***
+Epoch   9 | running train ppl  19.8381 | val ppl  16.1066    ***new best val ppl***
+Epoch  10 | running train ppl  16.4722 | val ppl  13.5094    ***new best val ppl***
+Epoch  11 | running train ppl  14.0445 | val ppl  11.7131    ***new best val ppl***
+Epoch  12 | running train ppl  12.2709 | val ppl  10.2163    ***new best val ppl***
+Epoch  13 | running train ppl  10.9805 | val ppl   9.1069    ***new best val ppl***
+Epoch  14 | running train ppl   9.9672 | val ppl   8.5086    ***new best val ppl***
+Epoch  15 | running train ppl   9.1159 | val ppl   7.6604    ***new best val ppl***
+Epoch  16 | running train ppl   8.3365 | val ppl   7.1512    ***new best val ppl***
+Epoch  17 | running train ppl   7.8443 | val ppl   6.8200    ***new best val ppl***
+Epoch  18 | running train ppl   7.5233 | val ppl   6.5274    ***new best val ppl***
+Epoch  19 | running train ppl   7.1551 | val ppl   6.2771    ***new best val ppl***
+Epoch  20 | running train ppl   6.8803 | val ppl   6.0215    ***new best val ppl***
+Epoch  21 | running train ppl   6.6595 | val ppl   5.6991    ***new best val ppl***
+Epoch  22 | running train ppl   6.4230 | val ppl   5.6905    ***new best val ppl***
+Epoch  23 | running train ppl   6.3546 | val ppl   5.4560    ***new best val ppl***
+Epoch  24 | running train ppl   6.3419 | val ppl   5.5902    
+Epoch  25 | running train ppl   6.2444 | val ppl   5.3819    ***new best val ppl***
+Epoch  26 | running train ppl   6.2725 | val ppl   5.4469    
+Epoch  27 | running train ppl   6.0690 | val ppl   5.1973    ***new best val ppl***
+Epoch  28 | running train ppl   6.0744 | val ppl   5.2875    
+Epoch  29 | running train ppl   6.1274 | val ppl   5.2197    
+Epoch  30 | running train ppl   6.0196 | val ppl   5.1650    ***new best val ppl***
+Epoch  31 | running train ppl   6.0170 | val ppl   5.2360    
+Epoch  32 | running train ppl   6.1977 | val ppl   5.3316    
+Epoch  33 | running train ppl   6.1385 | val ppl   5.3014    
+Epoch  34 | running train ppl   6.2357 | val ppl   5.4379    
+Epoch  35 | running train ppl   6.2913 | val ppl   5.4214    
+Epoch  36 | running train ppl   6.2989 | val ppl   5.4500    
+Epoch  37 | running train ppl   6.5135 | val ppl   5.5883    
+Optimized Perplexity: 1.760574
+very: four u.s. ministers champion biggest jose miss been climate bellamy 
+he: lee steinberg government get crowley indian longer erekat driver that 
+effort: reason involved continue having during fans power prime shape am 
+importance: pattern package hopes website distribution slip quarterfinals area pyongyang regulatory 
+john: ca halter was steinberg pinera begun currency longer washington must 
+all: infrastructure ahead forgiven challenges likely thought easy bureau authorities getting 
+bt: semifinals bahrain 6-4 nba 7-5 jeff own atp pollution : 
+participate: getting place agenda especially agreed briefing hopes israel infrastructure advanced 
+robert: broad decision w. striker or could again bahrain that track 
+issues: differences defense over heavily africa april following international yet china 
+Tracker:  4
+Dim:   30 LR:   0.0003
+-------------------------------------------------------------------------------
+Using 11449 tokens for training (10% of 114491)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 1000 (excluding UNK) (original 2707)
+FFLM(
+  (E): Embedding(1001, 30)
+  (FF): FF(
+    (stack): ModuleList(
+      (0): Sequential(
+        (0): Linear(in_features=90, out_features=30, bias=True)
+        (1): ReLU()
+      )
+    )
+    (out): Linear(in_features=30, out_features=1001, bias=True)
+  )
+  (mean_ce): CrossEntropyLoss()
+  (sum_ce): CrossEntropyLoss()
+)
+Epoch   1 | running train ppl 357.4243 | val ppl 156.7661    ***new best val ppl***
+Epoch   2 | running train ppl 149.7100 | val ppl  95.7247    ***new best val ppl***
+Epoch   3 | running train ppl 100.8664 | val ppl  70.8744    ***new best val ppl***
+Epoch   4 | running train ppl  78.0881 | val ppl  52.7644    ***new best val ppl***
+Epoch   5 | running train ppl  62.0454 | val ppl  47.1151    ***new best val ppl***
+Epoch   6 | running train ppl  56.5907 | val ppl  46.6995    ***new best val ppl***
+Epoch   7 | running train ppl  54.4666 | val ppl  45.6703    ***new best val ppl***
+Epoch   8 | running train ppl  56.0778 | val ppl  48.3615    
+Epoch   9 | running train ppl  61.0024 | val ppl  53.8310    
+Epoch  10 | running train ppl  66.2751 | val ppl  58.9522    
+Epoch  11 | running train ppl  72.5042 | val ppl  64.3260    
+Epoch  12 | running train ppl  77.2330 | val ppl  71.9243    
+Epoch  13 | running train ppl  87.4555 | val ppl  80.3623    
+Epoch  14 | running train ppl  95.8295 | val ppl  91.8859    
+Optimized Perplexity: 1.749049
+club: march heavily attend told leaders territory peace millions pulled tehran 
+crowley: erekat red democrats he burger leaders straight session always rogers 
+football: education bahrain central anton face now shape adviser begin that 
+again: own broad robert winning 2009 17 enough 1959 participants annual 
+because: moment releasing ) how nba speaker if involved media and 
+ceremony: name negotiations hamelin cooperation attention seize france lieberman crafted bader 
+clinton: medals push crafted nation leadership know further del cholesterol easy 
+remains: were miss earned arms was giving pie with by sanctions 
+carbon: full would regulatory might will michael afp consumer gas if 
+on: early other taking charles in miss felt between opened republican 
+Tracker:  5
+Dim:   30 LR:   0.001
+-------------------------------------------------------------------------------
+Using 11449 tokens for training (10% of 114491)
+Using 11449 tokens for validation (10% of 114491)
+Using vocab size 1000 (excluding UNK) (original 2707)
+FFLM(
+  (E): Embedding(1001, 30)
+  (FF): FF(
+    (stack): ModuleList(
+      (0): Sequential(
+        (0): Linear(in_features=90, out_features=30, bias=True)
+        (1): ReLU()
+      )
+    )
+    (out): Linear(in_features=30, out_features=1001, bias=True)
+  )
+  (mean_ce): CrossEntropyLoss()
+  (sum_ce): CrossEntropyLoss()
+)
+Epoch   1 | running train ppl 435.1811 | val ppl 274.4245    ***new best val ppl***
+Epoch   2 | running train ppl 295.0112 | val ppl 229.7045    ***new best val ppl***
+Epoch   3 | running train ppl 216.0453 | val ppl 191.9122    ***new best val ppl***
+Epoch   4 | running train ppl 202.5759 | val ppl 199.0359    
+Epoch   5 | running train ppl 210.6733 | val ppl 220.3944    
+Epoch   6 | running train ppl 240.2673 | val ppl 240.5923    
+Epoch   7 | running train ppl 245.6248 | val ppl 217.6589    
+Epoch   8 | running train ppl 213.8493 | val ppl 210.1476    
+Epoch   9 | running train ppl 234.9047 | val ppl 209.6716    
+Epoch  10 | running train ppl 222.1179 | val ppl 218.5377    
+Optimized Perplexity: 1.737731
+player: africa differences continuing then seconds pull expected response him take 
+participants: online obviously north again coach 17 spending broad argentina wanted 
+smoot: recover villa regulations driver team rolled gradually bosque owen rogers 
+commitment: came percent so minute bahrain face possible only season carlos 
+article: into authorities hamstring remember gives among previously whether challenges -- 
+miller: pattern workers regulations day ohno proposal recover spokesman sessions here 
+agenda: 2006 crisis egypt championships war participate place briefing votes showed 
+carlos: countries fabio were street make pyongyang commitment miss election released 
+boost: obama industry played canada tibet close side shawcross senior `` 
+winner: work questions focus place morning verbeek recover tournament announcement challenge 
