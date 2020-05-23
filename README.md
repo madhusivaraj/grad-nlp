@@ -1,4 +1,4 @@
-Grad Natural Language Processing
+# Grad Natural Language Processing
 
 Course: CS 533, Natural Language Processing (Graduate Course <br/>
 Professor: [Dr. Karl Stratos](http://karlstratos.com/) <br/>
