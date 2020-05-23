@@ -1,6 +1,6 @@
 # Grad Natural Language Processing
 
-Course: CS 533, Natural Language Processing (Graduate Course <br/>
+Course: CS 533, Natural Language Processing (Graduate Course) <br/>
 Professor: [Dr. Karl Stratos](http://karlstratos.com/) <br/>
 Semester: Spring 2020 <br/>
 Course Site: [http://karlstratos.com/teaching/cs533spring20/cs533spring20.html](http://karlstratos.com/teaching/cs533spring20/cs533spring20.html)
